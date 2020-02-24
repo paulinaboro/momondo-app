@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "flightId": "KLM89",
+    "companyName": "Air France",
+    "companyShortcut": "AF",
+    "departureTime": 1582188897,
+    "arrivalTime": 1582361697,
+    "price": 100,
+    "currency": "DKK",
+    "totalTime": 600,
+    "stops": [
+      {
+        "name": "STOP 1",
+        "duration": 370,
+        "airportCode": "CDG",
+        "airportName": "Paris-Charles De Gaulle"
+      },
+      {
+        "name": "STOP 2",
+        "duration": 430,
+        "airportCode": "BRU",
+        "airportName": "Brussels Airport"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "flightId": "KLM89",
+    "companyName": "Air France",
+    "companyShortcut": "KL",
+    "departureTime": 1582188897,
+    "arrivalTime": 1582361697,
+    "price": 150,
+    "currency": "DKK",
+    "totalTime": 200,
+    "stops": [
+      {
+        "name": "STOP 1",
+        "duration": 370,
+        "airportCode": "CDG",
+        "airportName": "Paris-Charles De Gaulle"
+      },
+      {
+        "name": "STOP 2",
+        "duration": 430,
+        "airportCode": "BRU",
+        "airportName": "Brussels Airport"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "flightId": "KLM89",
+    "companyName": "Air France",
+    "companyShortcut": "AF",
+    "departureTime": 1582188897,
+    "arrivalTime": 1582361697,
+    "price": 200,
+    "currency": "DKK",
+    "totalTime": 300,
+    "stops": [
+      {
+        "name": "STOP 1",
+        "duration": 370,
+        "airportCode": "CDG",
+        "airportName": "Paris-Charles De Gaulle"
+      },
+      {
+        "name": "STOP 2",
+        "duration": 430,
+        "airportCode": "BRU",
+        "airportName": "Brussels Airport"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "flightId": "KLM89",
+    "companyName": "Air France",
+    "companyShortcut": "AF",
+    "departureTime": 1582188897,
+    "arrivalTime": 1582361697,
+    "price": 600,
+    "currency": "DKK",
+    "totalTime": 400,
+    "stops": [
+      {
+        "name": "STOP 1",
+        "duration": 370,
+        "airportCode": "CDG",
+        "airportName": "Paris-Charles De Gaulle"
+      },
+      {
+        "name": "STOP 2",
+        "duration": 430,
+        "airportCode": "BRU",
+        "airportName": "Brussels Airport"
+      }
+    ]
+  }
+]
