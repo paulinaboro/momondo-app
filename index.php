@@ -1,8 +1,17 @@
 <?php
+
+
+
+
+
+
+
+
+// fetching and displaying all flights from the json file 
 $sData = file_get_contents('all-flights-list.json');
 $jData = json_decode($sData);
 $sFlightsDivs = '';
-foreach($jData as $jFlight){
+foreach($jData->flights as $jFlight){
   // $iCheapestPrice = $iCheapestPrice ?? $jFlight->price;
   // if($jFlight->price < $iCheapestPrice){
   //   $iCheapestPrice = $jFlight->price;
@@ -11,7 +20,6 @@ foreach($jData as $jFlight){
   $sDepartureDate = date("Y-M-d H:i", substr($jFlight->departureTime, 0, 10)); 
 
   //2nd loop for array of stops
-
   $jStopsDivs = '';
   foreach($jFlight->stops as $jStop){
     $jStopsDivs .= "
@@ -43,7 +51,7 @@ foreach($jData as $jFlight){
           <input type='checkbox'>
         </div>
         <div>
-          <img class='airline-icon' src='$jFlight->img/companyShortcut.png'>
+          <img class='airline-icon' src='$jFlight->companyShortcut.png'>
         </div>
         <div>
           $sDepartureDate - 18:30
@@ -115,19 +123,29 @@ foreach($jData as $jFlight){
 
   <section id="search">
 
-    <div id="boxFromCity"> 
-      <input type="text" placeholder="from city">
-      <div id="fromCityResults">
-     
-      </div>
+  <div id="boxFromCity">
+      <input oninput="getFromCities()" id="txtSearchFrom" value="" type="text" placeholder="from city">
+      <div id="fromCityResults"></div>
+    </div>
+    
 </div>
+
      
 
 
     <button>&lt;- -&gt;</button>
-    <input type="text" placeholder="to city">
-    <input type="text" placeholder="from date">
-    <input type="text" placeholder="to date">
+    <div id="boxToCity">
+      <input oninput="getToCities()" id="txtSearchTo" value="" type="text" placeholder="to city">
+      <div id="toCityResults"></div>
+    </div>
+    <input type="date" name="trip-start"
+       value="2018-07-22"
+       placeholder="from date"
+       min="2020-02-24" max="2020-12-31">
+       <input type="date"name="trip-end"
+       value="2018-07-22"
+       placeholder="to date"
+       min="2020-02-24" max="2020-12-31">
     <button id="btnSearch">SEARCH</button>
   </section>
 
