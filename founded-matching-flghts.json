@@ -1,0 +1,785 @@
+{
+    "searchedFlights": [
+        {
+            "id": 1,
+            "flightId": "KLM89",
+            "departureTime": 1582500469,
+            "arrivalTime": 1582500469,
+            "companyShortcut": "AF",
+            "companyName": "Air France",
+            "flightDuration": 120,
+            "from": "Amsterdam",
+            "to": "Lisbon",
+            "price": 100,
+            "fromCityShortcut": "AMS",
+            "toCityShortcut": "PAR",
+            "total-price": 500,
+            "stops": [
+                {
+                    "name": "STOP 1",
+                    "airportName": "Brussels",
+                    "airportCode": "BRU",
+                    "stopDuration": 60
+                },
+                {
+                    "name": "STOP 2",
+                    "airportName": "Prague",
+                    "airportCode": "PRG",
+                    "stopDuration": 20
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "flightId": "KLM89",
+            "departureTime": 1582500469,
+            "arrivalTime": 1582500469,
+            "companyShortcut": "AF",
+            "companyName": "Air France",
+            "flightDuration": 120,
+            "from": "Amsterdam",
+            "to": "Lisbon",
+            "price": 100,
+            "fromCityShortcut": "AMS",
+            "toCityShortcut": "PAR",
+            "total-price": 500,
+            "stops": [
+                {
+                    "name": "STOP 1",
+                    "airportName": "Brussels",
+                    "airportCode": "BRU",
+                    "stopDuration": 60
+                },
+                {
+                    "name": "STOP 2",
+                    "airportName": "Prague",
+                    "airportCode": "PRG",
+                    "stopDuration": 20
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "flightId": "KLM89",
+            "departureTime": 1582500469,
+            "arrivalTime": 1582500469,
+            "companyShortcut": "AF",
+            "companyName": "Air France",
+            "flightDuration": 120,
+            "from": "Amsterdam",
+            "to": "Lisbon",
+            "price": 100,
+            "fromCityShortcut": "AMS",
+            "toCityShortcut": "PAR",
+            "total-price": 500,
+            "stops": [
+                {
+                    "name": "STOP 1",
+                    "airportName": "Brussels",
+                    "airportCode": "BRU",
+                    "stopDuration": 60
+                },
+                {
+                    "name": "STOP 2",
+                    "airportName": "Prague",
+                    "airportCode": "PRG",
+                    "stopDuration": 20
+                }
+            ]
+        },
+        {
+            "flights": [
+                {
+                    "id": 1,
+                    "flightId": "KLM89",
+                    "departureTime": 1582500469,
+                    "arrivalTime": 1582500469,
+                    "companyShortcut": "AF",
+                    "companyName": "Air France",
+                    "flightDuration": 120,
+                    "from": "Amsterdam",
+                    "to": "Lisbon",
+                    "price": 100,
+                    "fromCityShortcut": "AMS",
+                    "toCityShortcut": "PAR",
+                    "total-price": 500,
+                    "stops": [
+                        {
+                            "name": "STOP 1",
+                            "airportName": "Brussels",
+                            "airportCode": "BRU",
+                            "stopDuration": 60
+                        },
+                        {
+                            "name": "STOP 2",
+                            "airportName": "Prague",
+                            "airportCode": "PRG",
+                            "stopDuration": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "flights": [
+                {
+                    "id": 1,
+                    "flightId": "KLM89",
+                    "departureTime": 1582500469,
+                    "arrivalTime": 1582500469,
+                    "companyShortcut": "AF",
+                    "companyName": "Air France",
+                    "flightDuration": 120,
+                    "from": "Amsterdam",
+                    "to": "Lisbon",
+                    "price": 100,
+                    "fromCityShortcut": "AMS",
+                    "toCityShortcut": "PAR",
+                    "total-price": 500,
+                    "stops": [
+                        {
+                            "name": "STOP 1",
+                            "airportName": "Brussels",
+                            "airportCode": "BRU",
+                            "stopDuration": 60
+                        },
+                        {
+                            "name": "STOP 2",
+                            "airportName": "Prague",
+                            "airportCode": "PRG",
+                            "stopDuration": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "flights": [
+                {
+                    "id": 1,
+                    "flightId": "KLM89",
+                    "departureTime": 1582500469,
+                    "arrivalTime": 1582500469,
+                    "companyShortcut": "AF",
+                    "companyName": "Air France",
+                    "flightDuration": 120,
+                    "from": "Amsterdam",
+                    "to": "Lisbon",
+                    "price": 100,
+                    "fromCityCode": "AMS",
+                    "toCityCode": "PAR",
+                    "totalPrice": 500,
+                    "stops": [
+                        {
+                            "name": "STOP 1",
+                            "airportName": "Brussels",
+                            "airportCode": "BRU",
+                            "stopDuration": 60
+                        },
+                        {
+                            "name": "STOP 2",
+                            "airportName": "Prague",
+                            "airportCode": "PRG",
+                            "stopDuration": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "flights": [
+                {
+                    "id": 1,
+                    "flightId": "KLM89",
+                    "departureTime": 1582500469,
+                    "arrivalTime": 1582500469,
+                    "companyShortcut": "AF",
+                    "companyName": "Air France",
+                    "flightDuration": 120,
+                    "from": "Amsterdam",
+                    "to": "Lisbon",
+                    "price": 100,
+                    "fromCityCode": "AMS",
+                    "toCityCode": "PAR",
+                    "totalPrice": 500,
+                    "stops": [
+                        {
+                            "name": "STOP 1",
+                            "airportName": "Brussels",
+                            "airportCode": "BRU",
+                            "stopDuration": 60
+                        },
+                        {
+                            "name": "STOP 2",
+                            "airportName": "Prague",
+                            "airportCode": "PRG",
+                            "stopDuration": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "flights": [
+                {
+                    "id": 1,
+                    "flightId": "KLM89",
+                    "departureTime": 1582500469,
+                    "arrivalTime": 1582500469,
+                    "companyShortcut": "AF",
+                    "companyName": "Air France",
+                    "flightDuration": 120,
+                    "from": "Amsterdam",
+                    "to": "Lisbon",
+                    "price": 100,
+                    "fromCityCode": "AMS",
+                    "toCityCode": "PAR",
+                    "totalPrice": 500,
+                    "stops": [
+                        {
+                            "name": "STOP 1",
+                            "airportName": "Brussels",
+                            "airportCode": "BRU",
+                            "stopDuration": 60
+                        },
+                        {
+                            "name": "STOP 2",
+                            "airportName": "Prague",
+                            "airportCode": "PRG",
+                            "stopDuration": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "flights": [
+                {
+                    "id": 1,
+                    "flightId": "KLM89",
+                    "departureTime": 1582500469,
+                    "arrivalTime": 1582500469,
+                    "companyShortcut": "AF",
+                    "companyName": "Air France",
+                    "flightDuration": 120,
+                    "from": "Amsterdam",
+                    "to": "Lisbon",
+                    "price": 100,
+                    "fromCityCode": "AMS",
+                    "toCityCode": "PAR",
+                    "totalPrice": 500,
+                    "stops": [
+                        {
+                            "name": "STOP 1",
+                            "airportName": "Brussels",
+                            "airportCode": "BRU",
+                            "stopDuration": 60
+                        },
+                        {
+                            "name": "STOP 2",
+                            "airportName": "Prague",
+                            "airportCode": "PRG",
+                            "stopDuration": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "flights": [
+                {
+                    "id": 1,
+                    "flightId": "KLM89",
+                    "departureTime": 1582500469,
+                    "arrivalTime": 1582500469,
+                    "companyShortcut": "AF",
+                    "companyName": "Air France",
+                    "flightDuration": 120,
+                    "from": "Amsterdam",
+                    "to": "Lisbon",
+                    "price": 100,
+                    "fromCityCode": "AMS",
+                    "toCityCode": "PAR",
+                    "totalPrice": 500,
+                    "stops": [
+                        {
+                            "name": "STOP 1",
+                            "airportName": "Brussels",
+                            "airportCode": "BRU",
+                            "stopDuration": 60
+                        },
+                        {
+                            "name": "STOP 2",
+                            "airportName": "Prague",
+                            "airportCode": "PRG",
+                            "stopDuration": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {},
+        {
+            "flights": [
+                {
+                    "id": 1,
+                    "flightId": "KLM89",
+                    "departureTime": 1582500469,
+                    "arrivalTime": 1582500469,
+                    "companyShortcut": "AF",
+                    "companyName": "Air France",
+                    "flightDuration": 120,
+                    "from": "Amsterdam",
+                    "to": "Lisbon",
+                    "price": 100,
+                    "fromCityCode": "AMS",
+                    "toCityCode": "PAR",
+                    "totalPrice": 500,
+                    "stops": [
+                        {
+                            "name": "STOP 1",
+                            "airportName": "Brussels",
+                            "airportCode": "BRU",
+                            "stopDuration": 60
+                        },
+                        {
+                            "name": "STOP 2",
+                            "airportName": "Prague",
+                            "airportCode": "PRG",
+                            "stopDuration": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "flights": [
+                {
+                    "id": 1,
+                    "flightId": "KLM89",
+                    "departureTime": 1582500469,
+                    "arrivalTime": 1582500469,
+                    "companyShortcut": "AF",
+                    "companyName": "Air France",
+                    "flightDuration": 120,
+                    "from": "Amsterdam",
+                    "to": "Lisbon",
+                    "price": 100,
+                    "fromCityCode": "AMS",
+                    "toCityCode": "PAR",
+                    "totalPrice": 500,
+                    "stops": [
+                        {
+                            "name": "STOP 1",
+                            "airportName": "Brussels",
+                            "airportCode": "BRU",
+                            "stopDuration": 60
+                        },
+                        {
+                            "name": "STOP 2",
+                            "airportName": "Prague",
+                            "airportCode": "PRG",
+                            "stopDuration": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "flights": [
+                {
+                    "id": 1,
+                    "flightId": "KLM89",
+                    "departureTime": 1582500469,
+                    "arrivalTime": 1582500469,
+                    "companyShortcut": "AF",
+                    "companyName": "Air France",
+                    "flightDuration": 120,
+                    "from": "Amsterdam",
+                    "to": "Lisbon",
+                    "price": 100,
+                    "fromCityCode": "AMS",
+                    "toCityCode": "PAR",
+                    "totalPrice": 500,
+                    "stops": [
+                        {
+                            "name": "STOP 1",
+                            "airportName": "Brussels",
+                            "airportCode": "BRU",
+                            "stopDuration": 60
+                        },
+                        {
+                            "name": "STOP 2",
+                            "airportName": "Prague",
+                            "airportCode": "PRG",
+                            "stopDuration": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "flights": [
+                {
+                    "id": 1,
+                    "flightId": "KLM89",
+                    "departureTime": 1582500469,
+                    "arrivalTime": 1582500469,
+                    "companyShortcut": "AF",
+                    "companyName": "Air France",
+                    "flightDuration": 120,
+                    "from": "Amsterdam",
+                    "to": "Lisbon",
+                    "price": 100,
+                    "fromCityCode": "AMS",
+                    "toCityCode": "PAR",
+                    "totalPrice": 500,
+                    "stops": [
+                        {
+                            "name": "STOP 1",
+                            "airportName": "Brussels",
+                            "airportCode": "BRU",
+                            "stopDuration": 60
+                        },
+                        {
+                            "name": "STOP 2",
+                            "airportName": "Prague",
+                            "airportCode": "PRG",
+                            "stopDuration": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "flights": [
+                {
+                    "id": 1,
+                    "flightId": "KLM89",
+                    "departureTime": 1582500469,
+                    "arrivalTime": 1582500469,
+                    "companyShortcut": "AF",
+                    "companyName": "Air France",
+                    "flightDuration": 120,
+                    "from": "Amsterdam",
+                    "to": "Lisbon",
+                    "price": 100,
+                    "fromCityCode": "AMS",
+                    "toCityCode": "PAR",
+                    "totalPrice": 500,
+                    "stops": [
+                        {
+                            "name": "STOP 1",
+                            "airportName": "Brussels",
+                            "airportCode": "BRU",
+                            "stopDuration": 60
+                        },
+                        {
+                            "name": "STOP 2",
+                            "airportName": "Prague",
+                            "airportCode": "PRG",
+                            "stopDuration": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "flights": [
+                {
+                    "id": 1,
+                    "flightId": "KLM89",
+                    "departureTime": 1582500469,
+                    "arrivalTime": 1582500469,
+                    "companyShortcut": "AF",
+                    "companyName": "Air France",
+                    "flightDuration": 120,
+                    "from": "Amsterdam",
+                    "to": "Lisbon",
+                    "price": 100,
+                    "fromCityCode": "AMS",
+                    "toCityCode": "PAR",
+                    "totalPrice": 500,
+                    "stops": [
+                        {
+                            "name": "STOP 1",
+                            "airportName": "Brussels",
+                            "airportCode": "BRU",
+                            "stopDuration": 60
+                        },
+                        {
+                            "name": "STOP 2",
+                            "airportName": "Prague",
+                            "airportCode": "PRG",
+                            "stopDuration": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "flights": [
+                {
+                    "id": 1,
+                    "flightId": "KLM89",
+                    "departureTime": 1582500469,
+                    "arrivalTime": 1582500469,
+                    "companyShortcut": "AF",
+                    "companyName": "Air France",
+                    "flightDuration": 120,
+                    "from": "Amsterdam",
+                    "to": "Lisbon",
+                    "price": 100,
+                    "fromCityCode": "AMS",
+                    "toCityCode": "PAR",
+                    "totalPrice": 500,
+                    "stops": [
+                        {
+                            "name": "STOP 1",
+                            "airportName": "Brussels",
+                            "airportCode": "BRU",
+                            "stopDuration": 60
+                        },
+                        {
+                            "name": "STOP 2",
+                            "airportName": "Prague",
+                            "airportCode": "PRG",
+                            "stopDuration": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "flights": [
+                {
+                    "id": 1,
+                    "flightId": "KLM89",
+                    "departureTime": 1582500469,
+                    "arrivalTime": 1582500469,
+                    "companyShortcut": "AF",
+                    "companyName": "Air France",
+                    "flightDuration": 120,
+                    "from": "Amsterdam",
+                    "to": "Lisbon",
+                    "price": 100,
+                    "fromCityCode": "AMS",
+                    "toCityCode": "PAR",
+                    "totalPrice": 500,
+                    "stops": [
+                        {
+                            "name": "STOP 1",
+                            "airportName": "Brussels",
+                            "airportCode": "BRU",
+                            "stopDuration": 60
+                        },
+                        {
+                            "name": "STOP 2",
+                            "airportName": "Prague",
+                            "airportCode": "PRG",
+                            "stopDuration": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "flights": [
+                {
+                    "id": 1,
+                    "flightId": "KLM89",
+                    "departureTime": 1582500469,
+                    "arrivalTime": 1582500469,
+                    "companyShortcut": "AF",
+                    "companyName": "Air France",
+                    "flightDuration": 120,
+                    "from": "Amsterdam",
+                    "to": "Lisbon",
+                    "price": 100,
+                    "fromCityCode": "AMS",
+                    "toCityCode": "PAR",
+                    "totalPrice": 500,
+                    "stops": [
+                        {
+                            "name": "STOP 1",
+                            "airportName": "Brussels",
+                            "airportCode": "BRU",
+                            "stopDuration": 60
+                        },
+                        {
+                            "name": "STOP 2",
+                            "airportName": "Prague",
+                            "airportCode": "PRG",
+                            "stopDuration": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "flights": [
+                {
+                    "id": 1,
+                    "flightId": "KLM89",
+                    "departureTime": 1582500469,
+                    "arrivalTime": 1582500469,
+                    "companyShortcut": "AF",
+                    "companyName": "Air France",
+                    "flightDuration": 120,
+                    "from": "Amsterdam",
+                    "to": "Lisbon",
+                    "price": 100,
+                    "fromCityCode": "AMS",
+                    "toCityCode": "PAR",
+                    "totalPrice": 500,
+                    "stops": [
+                        {
+                            "name": "STOP 1",
+                            "airportName": "Brussels",
+                            "airportCode": "BRU",
+                            "stopDuration": 60
+                        },
+                        {
+                            "name": "STOP 2",
+                            "airportName": "Prague",
+                            "airportCode": "PRG",
+                            "stopDuration": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "flights": [
+                {
+                    "id": 1,
+                    "flightId": "KLM89",
+                    "departureTime": 1582500469,
+                    "arrivalTime": 1582500469,
+                    "companyShortcut": "AF",
+                    "companyName": "Air France",
+                    "flightDuration": 120,
+                    "from": "Amsterdam",
+                    "to": "Lisbon",
+                    "price": 100,
+                    "fromCityCode": "AMS",
+                    "toCityCode": "PAR",
+                    "totalPrice": 500,
+                    "stops": [
+                        {
+                            "name": "STOP 1",
+                            "airportName": "Brussels",
+                            "airportCode": "BRU",
+                            "stopDuration": 60
+                        },
+                        {
+                            "name": "STOP 2",
+                            "airportName": "Prague",
+                            "airportCode": "PRG",
+                            "stopDuration": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "flights": [
+                {
+                    "id": 1,
+                    "flightId": "KLM89",
+                    "departureTime": 1582500469,
+                    "arrivalTime": 1582500469,
+                    "companyShortcut": "AF",
+                    "companyName": "Air France",
+                    "flightDuration": 120,
+                    "from": "Amsterdam",
+                    "to": "Lisbon",
+                    "price": 100,
+                    "fromCityCode": "AMS",
+                    "toCityCode": "PAR",
+                    "totalPrice": 500,
+                    "stops": [
+                        {
+                            "name": "STOP 1",
+                            "airportName": "Brussels",
+                            "airportCode": "BRU",
+                            "stopDuration": 60
+                        },
+                        {
+                            "name": "STOP 2",
+                            "airportName": "Prague",
+                            "airportCode": "PRG",
+                            "stopDuration": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "flights": [
+                {
+                    "id": 1,
+                    "flightId": "KLM89",
+                    "departureTime": 1582500469,
+                    "arrivalTime": 1582500469,
+                    "companyShortcut": "AF",
+                    "companyName": "Air France",
+                    "flightDuration": 120,
+                    "from": "Amsterdam",
+                    "to": "Lisbon",
+                    "price": 100,
+                    "fromCityCode": "AMS",
+                    "toCityCode": "PAR",
+                    "totalPrice": 500,
+                    "stops": [
+                        {
+                            "name": "STOP 1",
+                            "airportName": "Brussels",
+                            "airportCode": "BRU",
+                            "stopDuration": 60
+                        },
+                        {
+                            "name": "STOP 2",
+                            "airportName": "Prague",
+                            "airportCode": "PRG",
+                            "stopDuration": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "flights": [
+                {
+                    "id": 1,
+                    "flightId": "KLM89",
+                    "departureTime": 1582500469,
+                    "arrivalTime": 1582500469,
+                    "companyShortcut": "AF",
+                    "companyName": "Air France",
+                    "flightDuration": 120,
+                    "from": "Amsterdam",
+                    "to": "Lisbon",
+                    "price": 100,
+                    "fromCityCode": "AMS",
+                    "toCityCode": "PAR",
+                    "totalPrice": 500,
+                    "stops": [
+                        {
+                            "name": "STOP 1",
+                            "airportName": "Brussels",
+                            "airportCode": "BRU",
+                            "stopDuration": 60
+                        },
+                        {
+                            "name": "STOP 2",
+                            "airportName": "Prague",
+                            "airportCode": "PRG",
+                            "stopDuration": 20
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

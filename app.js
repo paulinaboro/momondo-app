@@ -1,3 +1,4 @@
+//From City
 async function getFromCities() {
   var txtSearch = document.querySelector("#txtSearchFrom");
   var oFromCityResults = document.querySelector("#fromCityResults");
@@ -21,6 +22,8 @@ async function getFromCities() {
   // Overwrite results
   oFromCityResults.innerHTML = sDivCities;
   oFromCityResults.style.display = "block";
+  // console.log(jData);
+  passSearchedFlightDataFrom(jData);
 }
 
 function selectCityFrom(objectDOM) {
@@ -29,15 +32,14 @@ function selectCityFrom(objectDOM) {
   var sCityName = objectDOM.innerHTML;
   txtSearch.value = sCityName;
   oFromCityResults.style.display = "none";
+  // console.log(objectDOM);
 }
 
-{
-  /* <div id="boxToCity">
-<input oninput="getToCities()" id="txtSearchTo" value="" type="text" placeholder="to city">
-<div id="toCityResults"></div>
-</div> */
+function passSearchedFlightDataFrom(jData) {
+  console.log(jData);
 }
 
+///To city
 async function getToCities() {
   var txtSearch = document.querySelector("#txtSearchTo");
   var oToCityResults = document.querySelector("#toCityResults");
@@ -61,6 +63,7 @@ async function getToCities() {
   // Overwrite results
   oToCityResults.innerHTML = sDivCities;
   oToCityResults.style.display = "block";
+  passSearchedFlightDataTo(jData);
 }
 
 function selectCityTo(objectDOM) {
@@ -70,3 +73,15 @@ function selectCityTo(objectDOM) {
   txtSearch.value = sCityName;
   oToCityResults.style.display = "none";
 }
+
+function passSearchedFlightDataTo(jData) {
+  console.log(jData);
+}
+
+// function getSearchedFlights() {
+//   console.log("x");
+//   var connection = await fetch("get-searched-flights.php");
+//   // console.log(response) // 200
+//   var sData = await connection.text();
+//   console.log(sData);
+// }

@@ -1,15 +1,12 @@
 <?php
 
 
-
-
-
-
-
-
 // fetching and displaying all flights from the json file 
 $sData = file_get_contents('all-flights-list.json');
 $jData = json_decode($sData);
+//create a search function who takes name iof the city and displau all the floghts with this name/
+//search or filter funtion check it out 
+
 $sFlightsDivs = '';
 foreach($jData->flights as $jFlight){
   // $iCheapestPrice = $iCheapestPrice ?? $jFlight->price;
@@ -17,6 +14,7 @@ foreach($jData->flights as $jFlight){
   //   $iCheapestPrice = $jFlight->price;
   // }
   //xyxgi
+
   $sDepartureDate = date("Y-M-d H:i", substr($jFlight->departureTime, 0, 10)); 
 
   //2nd loop for array of stops

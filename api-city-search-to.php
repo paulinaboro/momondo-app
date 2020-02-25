@@ -11,8 +11,14 @@ foreach($jData->flights as $jFlight){
   if( stripos($jFlight->to, $sSearchFor) !== false ){
     // array_push($jResponse->cities, $jCity);
     $jResponse->flights[] =  $jFlight; // same as array_push
-  } 
-}
+
+
+  }}
+  
+ 
+
+
+
 echo json_encode($jResponse);
 
 

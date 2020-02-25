@@ -11,9 +11,9 @@
       "from": "Amsterdam",
       "to": "Lisbon",
       "price": 100,
-      "fromCityShortcut": "AMS",
-      "toCityShortcut": "PAR",
-      "total-price": 500,
+      "fromCityCode": "AMS",
+      "toCityCode": "PAR",
+      "totalPrice": 500,
       "stops": [
         {
           "name": "STOP 1",
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "id": 1,
+      "id": 2,
       "flightId": "KLM89",
       "departureTime": 1582500469,
       "arrivalTime": 1582500469,
@@ -40,9 +40,9 @@
       "from": "Toronto",
       "to": "Paris",
       "price": 100,
-      "fromCityShortcut": "AMS",
-      "toCityShortcut": "PAR",
-      "total-price": 500,
+      "fromCityCode": "AMS",
+      "toCityCode": "PAR",
+      "totalPrice": 500,
       "stops": [
         {
           "name": "STOP 1",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "id": 1,
+      "id": 3,
       "flightId": "KLM89",
       "departureTime": 1582500469,
       "arrivalTime": 1582500469,
@@ -69,9 +69,9 @@
       "from": "New York",
       "to": "Warsaw",
       "price": 100,
-      "fromCityShortcut": "AMS",
-      "toCityShortcut": "PAR",
-      "total-price": 500,
+      "fromCityCode": "AMS",
+      "toCityCode": "PAR",
+      "totalPrice": 500,
       "stops": [
         {
           "name": "STOP 1",
