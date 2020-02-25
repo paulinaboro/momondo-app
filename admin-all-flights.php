@@ -16,7 +16,8 @@ require_once('admin-topNavbar.php');
     // </div>";
 
     echo "
-    <h2>HTML Table</h2>
+
+
 
 <table>
   <tr>
@@ -48,3 +49,4 @@ require_once('admin-topNavbar.php');
   ?>  
 </body>
 </html>
+

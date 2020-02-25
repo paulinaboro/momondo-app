@@ -1,5 +1,4 @@
 <?php
-
 // Read/Open file 
 $sData = file_get_contents('demo-data.json');
 // echo $sData;
@@ -43,8 +42,6 @@ $jFlight->totalPrice = $_POST['flight-totalPrice'];
     array_push($jFlight->stops, $jStop2);
     // exit();
   }
-
-
 
 // How to add to an array. Array and then value
 array_push($jData->flights, $jFlight);
