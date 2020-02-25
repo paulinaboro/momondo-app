@@ -14,16 +14,16 @@ async function getFromCities() {
   var sData = await connection.text();
   // console.log(sData); // text
   var jData = JSON.parse(sData); // convert text into object
+  console.log(jData);
   var sDivCities = ""; // <div>X</div><div>Y</div>
-  for (var i = 0; i < jData.flights.length; i++) {
+  for (var i = 0; i < jData.cities.length; i++) {
     //     // Concatanate
-    sDivCities += `<div onclick="selectCityFrom(this)">${jData.flights[i].from}</div>`;
+    sDivCities += `<div onclick="selectCityFrom(this)">${jData.cities[i].cityName}</div>`;
   }
   // Overwrite results
   oFromCityResults.innerHTML = sDivCities;
   oFromCityResults.style.display = "block";
   // console.log(jData);
-  passSearchedFlightDataFrom(jData);
 }
 
 function selectCityFrom(objectDOM) {
@@ -35,11 +35,6 @@ function selectCityFrom(objectDOM) {
   // console.log(objectDOM);
 }
 
-function passSearchedFlightDataFrom(jData) {
-  console.log(jData);
-}
-
-///To city
 async function getToCities() {
   var txtSearch = document.querySelector("#txtSearchTo");
   var oToCityResults = document.querySelector("#toCityResults");
@@ -56,14 +51,13 @@ async function getToCities() {
   // console.log(sData); // text
   var jData = JSON.parse(sData); // convert text into object
   var sDivCities = ""; // <div>X</div><div>Y</div>
-  for (var i = 0; i < jData.flights.length; i++) {
+  for (var i = 0; i < jData.cities.length; i++) {
     //     // Concatanate
-    sDivCities += `<div onclick="selectCityTo(this)">${jData.flights[i].to}</div>`;
+    sDivCities += `<div onclick="selectCityTo(this)">${jData.cities[i].cityName}</div>`;
   }
   // Overwrite results
   oToCityResults.innerHTML = sDivCities;
   oToCityResults.style.display = "block";
-  passSearchedFlightDataTo(jData);
 }
 
 function selectCityTo(objectDOM) {
@@ -74,14 +68,22 @@ function selectCityTo(objectDOM) {
   oToCityResults.style.display = "none";
 }
 
-function passSearchedFlightDataTo(jData) {
-  console.log(jData);
-}
+async function getMatchingFlightConnections() {
+  var inputValueFrom = document.getElementById("txtSearchFrom").value;
+  var inputValueTo = document.getElementById("txtSearchTo").value;
 
-// function getSearchedFlights() {
-//   console.log("x");
-//   var connection = await fetch("get-searched-flights.php");
-//   // console.log(response) // 200
-//   var sData = await connection.text();
-//   console.log(sData);
-// }
+  var url = "api-find-matching-flight-connections.php?from=" + inputValueFrom;
+  // var url =
+  // "api-find-matching-flight-connections.php?from=" +
+  // inputValueFrom +
+  // "&to=" +
+  // inputValueTo;
+  var connection = await fetch(url);
+  // console.log(response) // 200
+  var sData = await connection.text();
+  console.log(sData); // text
+  // var jData = JSON.parse(sData); // convert text into object
+  // console.log(jData);
+  // console.log(sData);
+  // var url = "api-city-search-to.php?cityName=" + sSearchFor;
+}

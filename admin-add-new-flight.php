@@ -3,7 +3,7 @@
 require_once('admin-topNavbar.php');
 ?>
 
-<h1>Add info about new flight:</h1>
+<h1>Add information about new flight:</h1>
   <form action="admin-save-new-flight.php" method="POST">
     <input name="flight-flightId" type="text" placeholder="flight id example SAS303">
     <input name="flight-from" type="text" placeholder="from city name">

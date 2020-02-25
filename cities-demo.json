@@ -1,0 +1,20 @@
+{
+  "cities": [
+    {
+      "cityName": "Warsaw, WAW",
+      "airportCode": "WAW"
+    },
+    {
+      "cityName": "Copenhagen, CPH",
+      "airportCode": "CPH"
+    },
+    {
+      "cityName": "London, LON",
+      "airportCode": "LHR"
+    },
+    {
+      "cityName": "Berlin, BER",
+      "airportCode": "BER"
+    }
+  ]
+}

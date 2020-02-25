@@ -125,6 +125,7 @@ foreach($jData->flights as $jFlight){
       <input oninput="getFromCities()" id="txtSearchFrom" value="" type="text" placeholder="from city">
       <div id="fromCityResults"></div>
     </div>
+ 
     
 </div>
 
@@ -136,6 +137,7 @@ foreach($jData->flights as $jFlight){
       <input oninput="getToCities()" id="txtSearchTo" value="" type="text" placeholder="to city">
       <div id="toCityResults"></div>
     </div>
+    
     <input type="date" name="trip-start"
        value="2018-07-22"
        placeholder="from date"
@@ -144,7 +146,7 @@ foreach($jData->flights as $jFlight){
        value="2018-07-22"
        placeholder="to date"
        min="2020-02-24" max="2020-12-31">
-    <button id="btnSearch">SEARCH</button>
+    <button id="btnSearch" onclick="getMatchingFlightConnections()">SEARCH</button>
   </section>
 
   <section id="temporal">
