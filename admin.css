@@ -1,11 +1,31 @@
-nav a {
-  border: 1px solid black;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  font-family: "Lato";
+  font-weight: 300;
 }
 
+p,
+a {
+  font-size: 22px;
+}
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 50%;
+}
+
+#tableContent,
+#adminPageContent {
+  margin-top: 5vh;
+  margin-left: 25%;
 }
 
 td,
@@ -13,10 +33,15 @@ th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+  font-size: 20px;
 }
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+tr:hover {
+  background-color: #bce1f7;
 }
 
 #delete a {
@@ -25,4 +50,38 @@ tr:nth-child(even) {
 
 #update a {
   color: green;
+}
+
+ul a {
+  color: white;
+  margin-left: 60px;
+  padding-top: 60px;
+  text-decoration: none;
+}
+ul {
+  height: 80px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3492eb;
+}
+
+ul li {
+  margin-top: 25px;
+}
+
+li {
+  float: left;
+}
+li a:hover {
+  color: yellow;
+  font-weight: 500;
+}
+.update {
+  color: green;
+}
+
+.delete {
+  color: red;
 }

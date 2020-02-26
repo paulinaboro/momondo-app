@@ -8,10 +8,12 @@
 <?php 
 require_once('admin-topNavbar.php');
 ?>
-  <h1>ADMIN</h1>
+<div id="adminPageContent">
+  <h1>Welcome to admin page.</h1>
   <h2>Hi, <?= $sUserEmail ?></h2>
   <p>On admin page you have access to all the flights, you can edit them and adjust changes.</p>
-
+<br>
   <a href="admin-logout.php">Logout</a>
+  </div>
 </body>
 </html>

@@ -17,7 +17,7 @@ require_once('admin-topNavbar.php');
     <input name="flight-flightDuration" type="text" placeholder="flightDuration in minutes">
     <input name="flight-price" type="text" placeholder="price in DKK">
     <input name="flight-totalPrice" type="text" placeholder="total-price in DKK">
-  <h1>Stops1</h1>
+  <h2>Stops:</h2>
 
 <p>Stop 1</p>
     <input name="stop1-name" type="text" placeholder="stop1 name">
