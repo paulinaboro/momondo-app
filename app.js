@@ -71,19 +71,8 @@ function selectCityTo(objectDOM) {
 async function getMatchingFlightConnections() {
   var inputValueFrom = document.getElementById("txtSearchFrom").value;
   var inputValueTo = document.getElementById("txtSearchTo").value;
-
   var url = "api-find-matching-flight-connections.php?from=" + inputValueFrom;
-  // var url =
-  // "api-find-matching-flight-connections.php?from=" +
-  // inputValueFrom +
-  // "&to=" +
-  // inputValueTo;
   var connection = await fetch(url);
-  // console.log(response) // 200
   var sData = await connection.text();
-  console.log(sData); // text
-  // var jData = JSON.parse(sData); // convert text into object
-  // console.log(jData);
-  // console.log(sData);
-  // var url = "api-city-search-to.php?cityName=" + sSearchFor;
+  location.reload();
 }

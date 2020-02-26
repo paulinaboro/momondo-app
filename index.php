@@ -1,11 +1,8 @@
 <?php
 
-
 // fetching and displaying all flights from the json file 
-$sData = file_get_contents('all-flights-list.json');
+$sData = file_get_contents('founded-matching-flights.json');
 $jData = json_decode($sData);
-//create a search function who takes name iof the city and displau all the floghts with this name/
-//search or filter funtion check it out 
 
 $sFlightsDivs = '';
 foreach($jData->flights as $jFlight){
@@ -13,32 +10,21 @@ foreach($jData->flights as $jFlight){
   // if($jFlight->price < $iCheapestPrice){
   //   $iCheapestPrice = $jFlight->price;
   // }
-  //xyxgi
 
   $sDepartureDate = date("Y-M-d H:i", substr($jFlight->departureTime, 0, 10)); 
 
   //2nd loop for array of stops
   $jStopsDivs = '';
   foreach($jFlight->stops as $jStop){
+    if (empty($jStop->name)) {
+      $jStop->name = "direct";
+  }
     $jStopsDivs .= "
     <div>
     <p>$jStop->name</p>
     <p>$jStop->airportCode</p>
     </div>
     ";  
-    /////////////////////////// convert total minutes of the stop to hours
-    // $totalMinutes = $jStop->duration;
-    // $hours = intval($totalMinutes/60);
-    // $minutes = $totalMinutes - ($hours * 60);
-    // if(empty($minutes)){
-    //   echo $minutes;
-    //   unset($minutes);
-    //   $minutes = "00";
-    // }
-    //////////////////////////
- 
-  
-  
   
    
   $sFlightsDivs .= "
@@ -59,8 +45,8 @@ foreach($jData->flights as $jFlight){
       $jStopsDivs
         </div>
         <div>
-          10h. 20min.
-          <p>CPH-MIA</p>
+        <p>$jFlight->flightDuration min</p>
+          <p>$jFlight->fromCityCode-$jFlight->toCityCode</p>
         </div>
       </div>
       <div class='row'>
@@ -89,12 +75,23 @@ foreach($jData->flights as $jFlight){
       <div>
         $jFlight->price Kr.
       </div>
-      <button>BUY</button>
+      <a href='ticket-purchase.php?id=$jFlight->id'><button><p>BUY</p></button></a>
     </div>
   </div>
   ";
 }
 }
+  ///////////////////////// convert total minutes of the stop to hours
+  // $totalMinutes = $jFlight->flightDuration;
+  // $hours = intval($totalMinutes/60);
+  // $minutes = $totalMinutes - ($hours * 60);
+  // if(empty($minutes)){
+  //   echo $minutes;
+  //   unset($minutes);
+  //   $minutes = "00";
+  // }
+  ////////////////////////
+
 ?>
 
 <!DOCTYPE html>
