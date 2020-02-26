@@ -6,17 +6,23 @@ require_once('admin-topNavbar.php');
     <?php
   $sData = file_get_contents('demo-data.json');
   $jData = json_decode($sData);
+  $sFlightsTable = '';
   foreach($jData->flights as $flight){
-    // echo "<div>
-    // $flight->from
-    // <a href='admin-delete-flight.php?id=$flight->id'>
-    //   delete
-    // </a>
-    // <a href='admin-update-flight.php?id=$flight->id'>update</a>
-    // </div>";
-
-    echo "
-
+    $sFlightsTable .= "
+    
+  </tr>
+  <tr>
+    <td>$flight->from</td>
+    <td>$flight->to</td>
+    <td>$flight->id</td>
+     <td>$flight->flightId</td>
+     <td><a href='admin-delete-flight.php?id=$flight->id'>
+      delete
+    </a></td>
+     <td><a href='admin-update-flight.php?id=$flight->id'>update</a></td> 
+  </tr>";
+  }
+  ?>  
 
 
 <table>
@@ -30,23 +36,15 @@ require_once('admin-topNavbar.php');
     
     
   </tr>
-  <tr>
-    <td>$flight->from</td>
-    <td>$flight->to</td>
-    <td>$flight->id</td>
-     <td>$flight->flightId</td>
-     <td><a href='admin-delete-flight.php?id=$flight->id'>
-      delete
-    </a></td>
-     <td><a href='admin-update-flight.php?id=$flight->id'>update</a></td>
-     
-  </tr>
+ <?php echo $sFlightsTable ?>
   <tr>
  
   </tr>
-</table>";
-  }
-  ?>  
+</table>
+
+
+
+
 </body>
 </html>
 

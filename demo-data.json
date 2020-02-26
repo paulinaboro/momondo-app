@@ -1,35 +1,6 @@
 {
     "flights": [
         {
-            "id": "4aa7fef14ec387bc32b3a7aee5b738c1",
-            "flightId": "SAS301",
-            "from": "Warsaw",
-            "fromCityCode": "WAW",
-            "to": "Copenhagen",
-            "toCityCode": "CPH",
-            "departureTime": "1582623821",
-            "arrivalTime": "1582710221",
-            "companyShortcut": "SAS",
-            "companyName": "SAS",
-            "flightDuration": "120",
-            "price": "500",
-            "totalPrice": "500",
-            "stops": [
-                {
-                    "name": "",
-                    "airportName": "",
-                    "airportCode": "",
-                    "stopDuration": ""
-                },
-                {
-                    "name": "",
-                    "airportName": "",
-                    "airportCode": "",
-                    "stopDuration": ""
-                }
-            ]
-        },
-        {
             "id": "b01d5c83ca887c4bcb82fed205c4df67",
             "flightId": "NOR123",
             "from": "Warsaw",
@@ -136,6 +107,64 @@
                     "airportName": "Amsterdam Airport",
                     "airportCode": "AMS",
                     "stopDuration": "80"
+                },
+                {
+                    "name": "",
+                    "airportName": "",
+                    "airportCode": "",
+                    "stopDuration": ""
+                }
+            ]
+        },
+        {
+            "id": "c30a1c3b76ff565d46141361c8226c62",
+            "flightId": "SAS301",
+            "from": "Warsaw",
+            "fromCityCode": "WAW",
+            "to": "Copenhagen",
+            "toCityCode": "CPH",
+            "departureTime": "1582623821",
+            "arrivalTime": "1582710221",
+            "companyShortcut": "NOR",
+            "companyName": "Norwegian",
+            "flightDuration": "60",
+            "price": "450",
+            "totalPrice": "450",
+            "stops": [
+                {
+                    "name": "",
+                    "airportName": "",
+                    "airportCode": "",
+                    "stopDuration": ""
+                },
+                {
+                    "name": "",
+                    "airportName": "",
+                    "airportCode": "",
+                    "stopDuration": ""
+                }
+            ]
+        },
+        {
+            "id": "35e8ce4f882f09288861bb999fb1ecb7",
+            "flightId": "AIR354",
+            "from": "London",
+            "fromCityCode": "LHR",
+            "to": "Berlin",
+            "toCityCode": "BER",
+            "departureTime": "1582623821",
+            "arrivalTime": "1582710221",
+            "companyShortcut": "AIR",
+            "companyName": "Air Portugal",
+            "flightDuration": "120",
+            "price": "340",
+            "totalPrice": "600",
+            "stops": [
+                {
+                    "name": "Stop 1",
+                    "airportName": "Brussels Airport",
+                    "airportCode": "BRU",
+                    "stopDuration": "45"
                 },
                 {
                     "name": "",
