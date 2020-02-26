@@ -1,0 +1,28 @@
+{
+    "bookings": [
+        {
+            "id": "74c4e1dd71d365e1c09984bf339761db",
+            "bookingCode": "e19bf478",
+            "passengerName": "Kate",
+            "passengerSurname": "Moss",
+            "passengerEmail": "forTestingpaulina554@gmail.com",
+            "passengerPhoneNumber": "50149540"
+        },
+        {
+            "id": "fb40f4d4e95ac24db5ba416121a4cb90",
+            "bookingCode": "0ce891e0",
+            "passengerName": "Kate",
+            "passengerSurname": "pi",
+            "passengerEmail": "forTestingpaulina554@gmail.com",
+            "passengerPhoneNumber": "50149540"
+        },
+        {
+            "id": "d1ca64d0825bd7b7ebb02f6fa9a227f0",
+            "bookingCode": "53678397",
+            "passengerName": "Kate",
+            "passengerSurname": "Moss",
+            "passengerEmail": "forTestingpaulina554@gmail.com",
+            "passengerPhoneNumber": "50149540"
+        }
+    ]
+}
