@@ -169,7 +169,7 @@ main {
 }
 #flight-route .row {
   display: grid;
-  grid-template-columns: 3fr 10fr 20fr 10fr 10fr;
+  grid-template-columns: 3fr 10fr 15fr 15fr 10fr;
 }
 
 .airline-icon {
@@ -222,4 +222,12 @@ h3 {
 .bold {
   font-weight: 400;
   font-size: 22px;
+}
+
+#searchForBooking > h1 {
+  color: white;
+}
+
+.bold2 {
+  font-weight: 400;
 }

@@ -12,21 +12,25 @@ foreach($jData->flights as $jFlight){
   // }
 
   $sDepartureDate = date("Y-M-d H:i", substr($jFlight->departureTime, 0, 10)); 
+  $sArrivalTime = date("H:i", substr($jFlight->arrivalTime, 0, 10));
 
   //2nd loop for array of stops
   $jStopsDivs = '';
   foreach($jFlight->stops as $jStop){
-    if (empty($jStop->name)) {
-      $jStop->name = "direct";
-  }
-    $jStopsDivs .= "
-    <div>
-    <p>$jStop->name</p>
-    <p>$jStop->airportCode</p>
-    </div>
-    ";  
-  
+    if (!empty($jStop->name)) {
+      $jStopsDivs .= "
+      <div>
+      <p>$jStop->name in $jStop->airportName, $jStop->airportCode</p>
+      <p class='bold2'>Stop duration:</p><p>$jStop->stopDuration min</p>
+      </div>
+      ";  
+    }else{
+      $jStopsDivs .= "<div><p>direct flight</p></div>";
+    }
    
+    
+    
+    $jStop->name = "";
   $sFlightsDivs .= "
     <div id='flight'>
     <div id='flight-route'>
@@ -35,14 +39,16 @@ foreach($jData->flights as $jFlight){
           <input type='checkbox'>
         </div>
         <div>
-          <img class='airline-icon' src='$jFlight->companyShortcut.png'>
+          <img class='airline-icon' src='img/$jFlight->companyShortcut.png'>
         </div>
         <div>
-          $sDepartureDate - 18:30
-          <p>$jFlight->companyShortcut</p>              
+        <p class='bold2'>From:</p><p>$jFlight->from, $jFlight->fromCityCode</p>
+        <p class='bold2'>To:</p>$jFlight->to, $jFlight->toCityCode</p>             
         </div>
         <div>
-      $jStopsDivs
+        <p class='bold2'>$sDepartureDate - $sArrivalTime</p>
+        <br>
+          <p>$jFlight->flightId</p> 
         </div>
         <div>
         <p>$jFlight->flightDuration min</p>
@@ -51,23 +57,17 @@ foreach($jData->flights as $jFlight){
       </div>
       <div class='row'>
         <div>
-          <input type='checkbox'>
         </div>
         <div>
           <img class='airline-icon' 
-          src='AF.png'>
+          src='img/$jFlight->companyShortcut.png'>
         </div>
         <div>
-          18:15 - 18:30
-          <p>KLM</p>              
+       <p class='bold2'>Stops:$jStopsDivs</p>
         </div>
         <div>
-          1 stop
-          <p>Amsterdam</p>
         </div>
         <div>
-          10h. 20min.
-          <p>CPH-MIA</p>
         </div>
       </div>            
     </div>

@@ -80,7 +80,6 @@ async function getMatchingFlightConnections() {
 async function findBooking() {
   var bookingCode = document.getElementById("bookingCode").value;
   var bookingLastName = document.getElementById("bookingLastName").value;
-
   var url =
     "api-find-matching-booking.php?code=" +
     bookingCode +

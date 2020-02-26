@@ -25,10 +25,8 @@
   </section>
 
 <div id="searchForBooking">
-<h1>Enter your booking code and last name to find your reservation</h1>
-<!-- <label for="reservation">Booking Code</label> -->
+<h1>Find your booking</h1>
 <input type="text" id="bookingCode" name="reservation" placeholder="Booking code">
-<!-- <label for="bookingLastName">Last Name</label> -->
 <input type="text" id="bookingLastName" name="bookingLastName" placeholder="Last name">
 <button id="searchByBookingCode" onclick="findBooking()">Search</button>
 <div id="reservationInfo" class="hidden">

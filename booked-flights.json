@@ -1,199 +1,277 @@
 {
-  "bookings": [
-    {
-      "id": "bd74047fa1c9fc2e8035efb2f3fa0a22",
-      "bookingCode": "5fc736cb",
-      "passengerName": "k",
-      "passengerSurname": "k",
-      "passengerEmail": "k",
-      "passengerPhoneNumber": "50149540",
-      "bookedFlightInfo": [
+    "bookings": [
         {
-          "id": "93796536048980a92c021cf8dc3c0cb7",
-          "flightId": "KLM201",
-          "from": "Warsaw",
-          "fromCityCode": "WAW",
-          "to": "Copenhagen",
-          "toCityCode": "CPH",
-          "departureTime": "1582623821",
-          "arrivalTime": "1582710221",
-          "companyShortcut": "SAS",
-          "companyName": "KLM Royal Dutch Airlines",
-          "flightDuration": "120",
-          "price": "600",
-          "totalPrice": "600",
-          "stops": [
-            {
-              "name": "",
-              "airportName": "",
-              "airportCode": "",
-              "stopDuration": ""
-            },
-            {
-              "name": "",
-              "airportName": "",
-              "airportCode": "",
-              "stopDuration": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "981bad35a73ce102613aec428a065d57",
-      "bookingCode": "17d9cbdc",
-      "passengerName": "o",
-      "passengerSurname": "o",
-      "passengerEmail": "fortestingpaulina554@gmail.com",
-      "passengerPhoneNumber": "50149540",
-      "bookedFlightInfo": [
+            "id": "bd74047fa1c9fc2e8035efb2f3fa0a22",
+            "bookingCode": "5fc736cb",
+            "passengerName": "k",
+            "passengerSurname": "k",
+            "passengerEmail": "k",
+            "passengerPhoneNumber": "50149540",
+            "bookedFlightInfo": [
+                {
+                    "id": "93796536048980a92c021cf8dc3c0cb7",
+                    "flightId": "KLM201",
+                    "from": "Warsaw",
+                    "fromCityCode": "WAW",
+                    "to": "Copenhagen",
+                    "toCityCode": "CPH",
+                    "departureTime": "1582623821",
+                    "arrivalTime": "1582710221",
+                    "companyShortcut": "SAS",
+                    "companyName": "KLM Royal Dutch Airlines",
+                    "flightDuration": "120",
+                    "price": "600",
+                    "totalPrice": "600",
+                    "stops": [
+                        {
+                            "name": "",
+                            "airportName": "",
+                            "airportCode": "",
+                            "stopDuration": ""
+                        },
+                        {
+                            "name": "",
+                            "airportName": "",
+                            "airportCode": "",
+                            "stopDuration": ""
+                        }
+                    ]
+                }
+            ]
+        },
         {
-          "id": "a8ec1e32648a2d8fba53914e61c654c4",
-          "flightId": "BRI",
-          "from": "London",
-          "fromCityCode": "LHR",
-          "to": "Berlin",
-          "toCityCode": "BRL",
-          "departureTime": "1582623821",
-          "arrivalTime": "1582710221",
-          "companyShortcut": "SAS",
-          "companyName": "British Airways",
-          "flightDuration": "160",
-          "price": "800",
-          "totalPrice": "900",
-          "stops": [
-            {
-              "name": "Stop 1",
-              "airportName": "Amsterdam Airport",
-              "airportCode": "AMS",
-              "stopDuration": "80"
-            },
-            {
-              "name": "",
-              "airportName": "",
-              "airportCode": "",
-              "stopDuration": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "6f02f7e7c6e20a0404fdd4981c0965f5",
-      "bookingCode": "4ef69d52",
-      "passengerName": "o",
-      "passengerSurname": "o",
-      "passengerEmail": "o",
-      "passengerPhoneNumber": "50149540",
-      "bookedFlightInfo": [
+            "id": "981bad35a73ce102613aec428a065d57",
+            "bookingCode": "17d9cbdc",
+            "passengerName": "o",
+            "passengerSurname": "o",
+            "passengerEmail": "fortestingpaulina554@gmail.com",
+            "passengerPhoneNumber": "50149540",
+            "bookedFlightInfo": [
+                {
+                    "id": "a8ec1e32648a2d8fba53914e61c654c4",
+                    "flightId": "BRI",
+                    "from": "London",
+                    "fromCityCode": "LHR",
+                    "to": "Berlin",
+                    "toCityCode": "BRL",
+                    "departureTime": "1582623821",
+                    "arrivalTime": "1582710221",
+                    "companyShortcut": "SAS",
+                    "companyName": "British Airways",
+                    "flightDuration": "160",
+                    "price": "800",
+                    "totalPrice": "900",
+                    "stops": [
+                        {
+                            "name": "Stop 1",
+                            "airportName": "Amsterdam Airport",
+                            "airportCode": "AMS",
+                            "stopDuration": "80"
+                        },
+                        {
+                            "name": "",
+                            "airportName": "",
+                            "airportCode": "",
+                            "stopDuration": ""
+                        }
+                    ]
+                }
+            ]
+        },
         {
-          "id": "b01d5c83ca887c4bcb82fed205c4df67",
-          "flightId": "NOR123",
-          "from": "Warsaw",
-          "fromCityCode": "WAW",
-          "to": "Copenhagen",
-          "toCityCode": "CPH",
-          "departureTime": "1582623821",
-          "arrivalTime": "1",
-          "companyShortcut": "SAS",
-          "companyName": "",
-          "flightDuration": "",
-          "price": "",
-          "totalPrice": "",
-          "stops": [
-            {
-              "name": "",
-              "airportName": "",
-              "airportCode": "",
-              "stopDuration": ""
-            },
-            {
-              "name": "",
-              "airportName": "",
-              "airportCode": "",
-              "stopDuration": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "f26502cf10a84e522de42003e21e01c5",
-      "bookingCode": "dbd3e79e",
-      "passengerName": "Camilla",
-      "passengerSurname": "Johnson",
-      "passengerEmail": "forTestingpaulina554@gmail.com",
-      "passengerPhoneNumber": "50149540",
-      "bookedFlightInfo": [
+            "id": "6f02f7e7c6e20a0404fdd4981c0965f5",
+            "bookingCode": "4ef69d52",
+            "passengerName": "o",
+            "passengerSurname": "o",
+            "passengerEmail": "o",
+            "passengerPhoneNumber": "50149540",
+            "bookedFlightInfo": [
+                {
+                    "id": "b01d5c83ca887c4bcb82fed205c4df67",
+                    "flightId": "NOR123",
+                    "from": "Warsaw",
+                    "fromCityCode": "WAW",
+                    "to": "Copenhagen",
+                    "toCityCode": "CPH",
+                    "departureTime": "1582623821",
+                    "arrivalTime": "1",
+                    "companyShortcut": "SAS",
+                    "companyName": "",
+                    "flightDuration": "",
+                    "price": "",
+                    "totalPrice": "",
+                    "stops": [
+                        {
+                            "name": "",
+                            "airportName": "",
+                            "airportCode": "",
+                            "stopDuration": ""
+                        },
+                        {
+                            "name": "",
+                            "airportName": "",
+                            "airportCode": "",
+                            "stopDuration": ""
+                        }
+                    ]
+                }
+            ]
+        },
         {
-          "id": "a8ec1e32648a2d8fba53914e61c654c4",
-          "flightId": "BRI",
-          "from": "London",
-          "fromCityCode": "LHR",
-          "to": "Berlin",
-          "toCityCode": "BRL",
-          "departureTime": "1582623821",
-          "arrivalTime": "1582710221",
-          "companyShortcut": "SAS",
-          "companyName": "British Airways",
-          "flightDuration": "160",
-          "price": "800",
-          "totalPrice": "900",
-          "stops": [
-            {
-              "name": "Stop 1",
-              "airportName": "Amsterdam Airport",
-              "airportCode": "AMS",
-              "stopDuration": "80"
-            },
-            {
-              "name": "",
-              "airportName": "",
-              "airportCode": "",
-              "stopDuration": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "a386214301fdac86913e3b38b9a59b7b",
-      "bookingCode": "462876b7",
-      "passengerName": "Johny",
-      "passengerSurname": "Bravo",
-      "passengerEmail": "fortestingpaulina554@gmail.com",
-      "passengerPhoneNumber": "98",
-      "bookedFlightInfo": [
+            "id": "f26502cf10a84e522de42003e21e01c5",
+            "bookingCode": "dbd3e79e",
+            "passengerName": "Camilla",
+            "passengerSurname": "Johnson",
+            "passengerEmail": "forTestingpaulina554@gmail.com",
+            "passengerPhoneNumber": "50149540",
+            "bookedFlightInfo": [
+                {
+                    "id": "a8ec1e32648a2d8fba53914e61c654c4",
+                    "flightId": "BRI",
+                    "from": "London",
+                    "fromCityCode": "LHR",
+                    "to": "Berlin",
+                    "toCityCode": "BRL",
+                    "departureTime": "1582623821",
+                    "arrivalTime": "1582710221",
+                    "companyShortcut": "SAS",
+                    "companyName": "British Airways",
+                    "flightDuration": "160",
+                    "price": "800",
+                    "totalPrice": "900",
+                    "stops": [
+                        {
+                            "name": "Stop 1",
+                            "airportName": "Amsterdam Airport",
+                            "airportCode": "AMS",
+                            "stopDuration": "80"
+                        },
+                        {
+                            "name": "",
+                            "airportName": "",
+                            "airportCode": "",
+                            "stopDuration": ""
+                        }
+                    ]
+                }
+            ]
+        },
         {
-          "id": "a8ec1e32648a2d8fba53914e61c654c4",
-          "flightId": "BRI",
-          "from": "London",
-          "fromCityCode": "LHR",
-          "to": "Berlin",
-          "toCityCode": "BRL",
-          "departureTime": "1582623821",
-          "arrivalTime": "1582710221",
-          "companyShortcut": "SAS",
-          "companyName": "British Airways",
-          "flightDuration": "160",
-          "price": "800",
-          "totalPrice": "900",
-          "stops": [
-            {
-              "name": "Stop 1",
-              "airportName": "Amsterdam Airport",
-              "airportCode": "AMS",
-              "stopDuration": "80"
-            },
-            {
-              "name": "",
-              "airportName": "",
-              "airportCode": "",
-              "stopDuration": ""
-            }
-          ]
+            "id": "a386214301fdac86913e3b38b9a59b7b",
+            "bookingCode": "462876b7",
+            "passengerName": "Johny",
+            "passengerSurname": "Bravo",
+            "passengerEmail": "fortestingpaulina554@gmail.com",
+            "passengerPhoneNumber": "98",
+            "bookedFlightInfo": [
+                {
+                    "id": "a8ec1e32648a2d8fba53914e61c654c4",
+                    "flightId": "BRI",
+                    "from": "London",
+                    "fromCityCode": "LHR",
+                    "to": "Berlin",
+                    "toCityCode": "BRL",
+                    "departureTime": "1582623821",
+                    "arrivalTime": "1582710221",
+                    "companyShortcut": "SAS",
+                    "companyName": "British Airways",
+                    "flightDuration": "160",
+                    "price": "800",
+                    "totalPrice": "900",
+                    "stops": [
+                        {
+                            "name": "Stop 1",
+                            "airportName": "Amsterdam Airport",
+                            "airportCode": "AMS",
+                            "stopDuration": "80"
+                        },
+                        {
+                            "name": "",
+                            "airportName": "",
+                            "airportCode": "",
+                            "stopDuration": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "a0fd391eb7329c513418781f84863a59",
+            "bookingCode": "07a8c99f",
+            "passengerName": "Paulina",
+            "passengerSurname": "Boro",
+            "passengerEmail": "fortestingpaulina554@gmail.com",
+            "passengerPhoneNumber": "50149540",
+            "bookedFlightInfo": [
+                {
+                    "id": "35e8ce4f882f09288861bb999fb1ecb7",
+                    "flightId": "AIR354",
+                    "from": "London",
+                    "fromCityCode": "LHR",
+                    "to": "Berlin",
+                    "toCityCode": "BER",
+                    "departureTime": "1582623821",
+                    "arrivalTime": "1582710221",
+                    "companyShortcut": "AIR",
+                    "companyName": "Air Portugal",
+                    "flightDuration": "120",
+                    "price": "340",
+                    "totalPrice": "600",
+                    "stops": [
+                        {
+                            "name": "Stop 1",
+                            "airportName": "Brussels Airport",
+                            "airportCode": "BRU",
+                            "stopDuration": "45"
+                        },
+                        {
+                            "name": "",
+                            "airportName": "",
+                            "airportCode": "",
+                            "stopDuration": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "0947e4772605890ce1e6a0413b9ad99b",
+            "bookingCode": "8bfd5638",
+            "passengerName": "Florina",
+            "passengerSurname": "Flo",
+            "passengerEmail": "fortestingpaulina554@o2.pl",
+            "passengerPhoneNumber": "50149540",
+            "bookedFlightInfo": [
+                {
+                    "id": "c30a1c3b76ff565d46141361c8226c62",
+                    "flightId": "TUI001",
+                    "from": "Warsaw",
+                    "fromCityCode": "WAW",
+                    "to": "Copenhagen",
+                    "toCityCode": "CPH",
+                    "departureTime": "1582623821",
+                    "arrivalTime": "1582665745",
+                    "companyShortcut": "KL",
+                    "companyName": "Norwegian",
+                    "flightDuration": "60",
+                    "price": "450",
+                    "totalPrice": "450",
+                    "stops": [
+                        {
+                            "name": "",
+                            "airportName": "",
+                            "airportCode": "",
+                            "stopDuration": ""
+                        },
+                        {
+                            "name": "",
+                            "airportName": "",
+                            "airportCode": "",
+                            "stopDuration": ""
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
