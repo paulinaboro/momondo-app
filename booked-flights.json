@@ -1,244 +1,82 @@
 {
-    "bookings": [
+  "bookings": [
+    {
+      "id": "bd74047fa1c9fc2e8035efb2f3fa0a22",
+      "bookingCode": "5fc736cb",
+      "passengerName": "k",
+      "passengerSurname": "k",
+      "passengerEmail": "k",
+      "passengerPhoneNumber": "50149540",
+      "bookedFlightInfo": [
         {
-            "id": "74c4e1dd71d365e1c09984bf339761db",
-            "bookingCode": "e19bf478",
-            "passengerName": "Kate",
-            "passengerSurname": "Moss",
-            "passengerEmail": "forTestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "fb40f4d4e95ac24db5ba416121a4cb90",
-            "bookingCode": "0ce891e0",
-            "passengerName": "Kate",
-            "passengerSurname": "pi",
-            "passengerEmail": "forTestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "d1ca64d0825bd7b7ebb02f6fa9a227f0",
-            "bookingCode": "53678397",
-            "passengerName": "Kate",
-            "passengerSurname": "Moss",
-            "passengerEmail": "forTestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "b98227bdcd0d968dac7a1f2d38865b05",
-            "bookingCode": "bfee6f31",
-            "passengerName": "Johny",
-            "passengerSurname": "Depp",
-            "passengerEmail": "forTestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "30b38c589c797d99f432ba0e85f08c52",
-            "bookingCode": "6de6d0b0",
-            "passengerName": "Johnu`",
-            "passengerSurname": "brawo",
-            "passengerEmail": "forTestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "78c1890647985189f185bca9f25f9942",
-            "bookingCode": "8dad3c67",
-            "passengerName": "Gra\u017cynka",
-            "passengerSurname": "ghghghg",
-            "passengerEmail": "forTestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "92f84f5e407dbbc046ef23cfc57ac754",
-            "bookingCode": "625b8b68",
-            "passengerName": "Zuza",
-            "passengerSurname": "Zzz",
-            "passengerEmail": "forTestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "ef58f3b726f4f735e92c297d0874ae3c",
-            "bookingCode": "33840cf6",
-            "passengerName": "kkkkkk",
-            "passengerSurname": "kkk",
-            "passengerEmail": "forTestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "b0fa06ccda0c69d8b89cac598dd54007",
-            "bookingCode": "421c6270",
-            "passengerName": "Ed",
-            "passengerSurname": "Sheran",
-            "passengerEmail": "forTestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "c4a8618e5f0eb338358e41bbea7e75e5",
-            "bookingCode": "5ee1b9ad",
-            "passengerName": "o",
-            "passengerSurname": "o",
-            "passengerEmail": "forTestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "917298aef9c782eda2c42a6091772e04",
-            "bookingCode": "dddaab51",
-            "passengerName": "o",
-            "passengerSurname": "o",
-            "passengerEmail": "forTestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "36f3448ce7f01fa5b435eefec54d9da3",
-            "bookingCode": "40a157f5",
-            "passengerName": "i",
-            "passengerSurname": "i",
-            "passengerEmail": "forTestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "3e125817de722eb37dc29496c2205e3e",
-            "bookingCode": "428a1bd2",
-            "passengerName": "o",
-            "passengerSurname": "o",
-            "passengerEmail": "fortestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "80f0465ec9764ebc487bd41be91df92e",
-            "bookingCode": "fc3aeae1",
-            "passengerName": "k",
-            "passengerSurname": "k",
-            "passengerEmail": "fortestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "7872293af00b96952eddc8ef6e29dd32",
-            "bookingCode": "cddbbfd2",
-            "passengerName": "gg",
-            "passengerSurname": "fff",
-            "passengerEmail": "fortestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "df7524ba5ff4d8b72f2ba92a687a0376",
-            "bookingCode": "eadf6a88",
-            "passengerName": "k",
-            "passengerSurname": "k",
-            "passengerEmail": "fortestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "55701562c9f5929b7d7136d19635cddb",
-            "bookingCode": "09916cc3",
-            "passengerName": "i",
-            "passengerSurname": "i",
-            "passengerEmail": "fortestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "ba50eb240c9a318fc7a3efe7df8fad92",
-            "bookingCode": "38a189b7",
-            "passengerName": "iiiii",
-            "passengerSurname": "iii",
-            "passengerEmail": "fortestingpaulina554@o2.pl",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "9c56fd748139f7ea7a97656120756cde",
-            "bookingCode": "c46147b6",
-            "passengerName": "o",
-            "passengerSurname": "o",
-            "passengerEmail": "fortestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "55ae69454b232a561d5380796066d984",
-            "bookingCode": "13e8970a",
-            "passengerName": "Paulina Borowiecka",
-            "passengerSurname": "l",
-            "passengerEmail": "fortestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "89c63515a58f9f19f3e89daf06304e82",
-            "bookingCode": "b338fbe0",
-            "passengerName": "i",
-            "passengerSurname": "i",
-            "passengerEmail": "i",
-            "passengerPhoneNumber": "i"
-        },
-        {
-            "id": "f60c3b1fe2cff39121ba8a0c2229794e",
-            "bookingCode": "cfee8156",
-            "passengerName": "Paulina Borowiecka",
-            "passengerSurname": "kk",
-            "passengerEmail": "forTestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "b88eb123524dec12c0c7131625aba994",
-            "bookingCode": "5331b440",
-            "passengerName": "kk",
-            "passengerSurname": "kk",
-            "passengerEmail": "fortestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "2c0851db488ad0d08d5bfebbd3904821",
-            "bookingCode": "30c66029",
-            "passengerName": "Paulina Borowiecka",
-            "passengerSurname": "o",
-            "passengerEmail": "fortestingpaulina554@o2.pl",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "8a45e0f4b8db82a2fabd49855326c21e",
-            "bookingCode": "f882ad13",
-            "passengerName": "Kate",
-            "passengerSurname": "Mosss",
-            "passengerEmail": "fortestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "ddbefceb5df7c9db9e0bb28e74bfcbc1",
-            "bookingCode": "8cf777bb",
-            "passengerName": "Kate",
-            "passengerSurname": "Moss",
-            "passengerEmail": "fortestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "143d2badd7afa3e58340587d349993dc",
-            "bookingCode": "0a51762b",
-            "passengerName": "i",
-            "passengerSurname": "i",
-            "passengerEmail": "fortestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "1863cd18543ed9b7913c65922fb93d61",
-            "bookingCode": "a0f8b917",
-            "passengerName": "u",
-            "passengerSurname": "u",
-            "passengerEmail": "fortestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "346b4694c3e969746fa7ca2e46a25867",
-            "bookingCode": "c085f506",
-            "passengerName": "kk",
-            "passengerSurname": "kk",
-            "passengerEmail": "fortestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
-        },
-        {
-            "id": "3e67cffee6c301bc0f6c4c2c516f0f09",
-            "bookingCode": "c86aa93a",
-            "passengerName": "i",
-            "passengerSurname": "i",
-            "passengerEmail": "fortestingpaulina554@gmail.com",
-            "passengerPhoneNumber": "50149540"
+          "id": "93796536048980a92c021cf8dc3c0cb7",
+          "flightId": "KLM201",
+          "from": "Warsaw",
+          "fromCityCode": "WAW",
+          "to": "Copenhagen",
+          "toCityCode": "CPH",
+          "departureTime": "1582623821",
+          "arrivalTime": "1582710221",
+          "companyShortcut": "SAS",
+          "companyName": "KLM Royal Dutch Airlines",
+          "flightDuration": "120",
+          "price": "600",
+          "totalPrice": "600",
+          "stops": [
+            {
+              "name": "",
+              "airportName": "",
+              "airportCode": "",
+              "stopDuration": ""
+            },
+            {
+              "name": "",
+              "airportName": "",
+              "airportCode": "",
+              "stopDuration": ""
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "id": "981bad35a73ce102613aec428a065d57",
+      "bookingCode": "17d9cbdc",
+      "passengerName": "o",
+      "passengerSurname": "o",
+      "passengerEmail": "fortestingpaulina554@gmail.com",
+      "passengerPhoneNumber": "50149540",
+      "bookedFlightInfo": [
+        {
+          "id": "a8ec1e32648a2d8fba53914e61c654c4",
+          "flightId": "BRI",
+          "from": "London",
+          "fromCityCode": "LHR",
+          "to": "Berlin",
+          "toCityCode": "BRL",
+          "departureTime": "1582623821",
+          "arrivalTime": "1582710221",
+          "companyShortcut": "SAS",
+          "companyName": "British Airways",
+          "flightDuration": "160",
+          "price": "800",
+          "totalPrice": "900",
+          "stops": [
+            {
+              "name": "Stop 1",
+              "airportName": "Amsterdam Airport",
+              "airportCode": "AMS",
+              "stopDuration": "80"
+            },
+            {
+              "name": "",
+              "airportName": "",
+              "airportCode": "",
+              "stopDuration": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

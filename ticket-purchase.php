@@ -33,7 +33,7 @@ foreach($jData->flights as $jFlight){
 <p><?php echo $jTicketInfoDiv; ?></p>
 </div>
     <h3>Enter passenger details in order to buy a ticket</h3>
-    <form action="save-new-ticket-purchase.php" method="POST">
+    <form action="save-new-ticket-purchase.php?newId=<?php echo $flightId ?>" method="POST">
     <input name="ticket-bookingCode" type="hidden" type="text">
     <label for="ticket-passengerName">Name</label>
     <input name="ticket-passengerName" type="text" placeholder="Name">
@@ -48,7 +48,6 @@ foreach($jData->flights as $jFlight){
       </button>
     </form>
 
-    <script src="purchase.js"></script>
 </body>
 </html>
 
