@@ -1,38 +1,5 @@
 <?php
 
-$sData = file_get_contents('booked-flights.json');
-$jData = json_decode($sData);
-
-$jBooking = new stdClass();
-// create a new keys
-
-$jBooking->id = bin2hex(random_bytes(16)); // uniqid();
-$jBooking->bookingCode = bin2hex(random_bytes(4));
-$jBooking->passengerName = $_POST["ticket-passengerName"];
-$jBooking->passengerSurname = $_POST['ticket-passengerSurname'];
-$jBooking->passengerEmail = $_POST['ticket-passengerEmail'];
-$jBooking->passengerPhoneNumber = $_POST['ticket-passengerPhoneNumber'];
-
-array_push($jData->bookings, $jBooking);
-
-$sData = json_encode($jData, JSON_PRETTY_PRINT);
-file_put_contents('booked-flights.json', $sData);
-
-
-
-// Send sms
-$sSendSms = $_POST['ticket-passengerPhoneNumber'];
-
-$sFromPhone = '50149540';
-$sToPhone  = $sSendSms;
-$sApiKey = 'IGbfiPPX74MynwibPXq707msvl1AEVfFt2pz36CXy3rIw1cagU';
-$sMessage = urlencode("Your ticket has been purchased successfully.");
-
-
-echo file_get_contents("https://fatsms.com/apis/api-send-sms?to-phone=$sSendSms&message=$sMessage&from-phone=25850567&api-key=IGbfiPPX74MynwibPXq707msvl1AEVfFt2pz36CXy3rIw1cagU");
-
-
-
 
 // if( !isset($_POST['subject']) ||
 // strlen(($_POST['subject']) < 2 & ($_POST['subject']) > 50
@@ -49,10 +16,18 @@ echo file_get_contents("https://fatsms.com/apis/api-send-sms?to-phone=$sSendSms&
 //return data in json to app.css 
 
 
-$sSendEmail = $_POST['ticket-passengerEmail'];
 
-    $sSubject = 'New Momondo Ticket Purchase';
-    $sMessage = 'Thanks for the purchase.';
+// $sPassengerEmail = $_POST['ticket-passengerEmail'];
+// $sPassengerPhone = $_POST['ticket-passengerPhoneNumber'];
+// $sFrom = $_POST['from'];
+// $sTo = $_POST['to'];
+
+
+    // $sSubject = $_POST['subject'];
+    // $sMessage = $_POST['message'];
+
+    $sSubject = "Momondo Ticket Purchase";
+    $sMessage = "Thank you for buying the ticket on Momondo page.";
 
 
 $sPassword = file_get_contents('private/password.txt');
@@ -79,18 +54,16 @@ try {
     $mail->isSMTP();                                            // Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'fortestingpaulina554@gmail.com'; 
+    $mail->Username   = 'forTestingpaulina554@gmail.com';                     // SMTP username
     $mail->Password   = $sPassword;                               // SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
     $mail->Port       = 587;                                    // TCP port to connect to
 
-    
-
     //Recipients
-    $mail->setFrom($sSendEmail, 'Mailer');
-    $mail->addAddress($sSendEmail, 'Momondo');     // Add a recipient
+    $mail->setFrom('$sPassengerEmail', 'Mailer');
+    $mail->addAddress('$sPassengerEmail', 'Momondo');     // Add a recipient
     // $mail->addAddress('ellen@example.com');               // Name is optional
-    $mail->addReplyTo($sSendEmail, 'Information');
+    $mail->addReplyTo('$sPassengerEmail', 'Information');
     // $mail->addCC('cc@example.com');
     // $mail->addBCC('bcc@example.com');
 
@@ -111,25 +84,9 @@ try {
 }
 
 
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-
-<p>check email</p>
-<p><?= $sSendEmail ?></p>
-
-</body>
-</html>
 
 
-<!-- // header('Location: purchase-finish.php'); -->
+
 
 
 

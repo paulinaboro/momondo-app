@@ -24,6 +24,7 @@ foreach($jData->flights as $jFlight){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flight Purchase</title>
+    
 </head>
 <body>
 
@@ -32,7 +33,6 @@ foreach($jData->flights as $jFlight){
 <p><?php echo $jTicketInfoDiv; ?></p>
 </div>
     <h3>Enter passenger details in order to buy a ticket</h3>
-
     <form action="save-new-ticket-purchase.php" method="POST">
     <input name="ticket-bookingCode" type="hidden" type="text">
     <label for="ticket-passengerName">Name</label>
@@ -43,9 +43,12 @@ foreach($jData->flights as $jFlight){
     <input name="ticket-passengerEmail" type="text" placeholder="Email">
 <label for="ticket-passengerPhoneNumber">Phone Number(enter without +45)</label>
     <input name="ticket-passengerPhoneNumber" type="text" placeholder="Phone number">
-
 <button type="submit">Buy</button>
+        Buy
+      </button>
     </form>
+
+    <script src="purchase.js"></script>
 </body>
 </html>
 
