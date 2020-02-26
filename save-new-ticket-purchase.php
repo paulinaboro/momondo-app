@@ -15,6 +15,9 @@ $jBooking->passengerPhoneNumber = $_POST['ticket-passengerPhoneNumber'];
 
 array_push($jData->bookings, $jBooking);
 
+$passengerName = $_POST["ticket-passengerName"];
+$jBookingCodeForUser = $jBooking->bookingCode;
+
 // now we have to push the flight info to the array with booked flights, so we know what the passenger ordered
 $flightId = $_GET['newId'];
 
@@ -52,7 +55,7 @@ foreach($jNewData->flights as $existingFlight){
     // $sApiKey = 'IGbfiPPX74MynwibPXq707msvl1AEVfFt2pz36CXy3rIw1cagU';
     $sApiKey = 'ThALQqwMXGYr5pMKuxfgjuRoKKGhKyYGuAf4FimIHbzjCP6z4k';
     // $sMessage = urlencode("Your ticket has been purchased successfully.");
-    $sMessage = urlencode("Thanks for buying ticket with Momondo :).");
+    $sMessage = urlencode("Thank you for buying ticket with momondo your booking code is: $jBookingCodeForUser.).");
     
     echo file_get_contents("https://fatsms.com/apis/api-send-sms?to-phone=$sSendSms&message=$sMessage&from-phone=50149540&api-key=$sApiKey");
     
@@ -61,7 +64,9 @@ foreach($jNewData->flights as $existingFlight){
     $sSendEmail = $_POST['ticket-passengerEmail'];
     
     $sSubject = 'New Momondo Ticket Purchase';
-    $sMessage = 'Thanks for the purchase.';
+    $sMessage = "Hi, $passengerName! Thank you for buying ticket with Momondo, your booking code is: $jBookingCodeForUser.
+    You can check your reservation's details by using booking number in the fold 'My Trips' on momondo page.
+    ";
     
     
     $sPassword = file_get_contents('private/password.txt');
@@ -123,6 +128,7 @@ foreach($jNewData->flights as $existingFlight){
     
 
     ?>
+
 
 
 

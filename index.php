@@ -112,7 +112,7 @@ foreach($jData->flights as $jFlight){
     <a href="">car</a>
     <a href="">trips</a>
     <a href="">discover</a>
-    <a href="">my trips</a>
+    <a href="mytrips.php">my trips</a>
     <a href="">login</a>
   </nav>
 

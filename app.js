@@ -76,3 +76,24 @@ async function getMatchingFlightConnections() {
   var sData = await connection.text();
   location.reload();
 }
+
+async function findBooking() {
+  var bookingCode = document.getElementById("bookingCode").value;
+  var bookingLastName = document.getElementById("bookingLastName").value;
+
+  var url =
+    "api-find-matching-booking.php?code=" +
+    bookingCode +
+    "&lastName=" +
+    bookingLastName;
+  var connection = await fetch(url);
+  var sData = await connection.text();
+  console.log(sData);
+  // populateReservationInfo(sData);
+}
+
+// function populateReservationInfo(booking) {
+//   document.getElementById("name").innerHTML = booking.passengerEmail;
+
+//   console.log(booking);
+// }
