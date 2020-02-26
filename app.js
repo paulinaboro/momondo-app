@@ -87,13 +87,17 @@ async function findBooking() {
     "&lastName=" +
     bookingLastName;
   var connection = await fetch(url);
-  var sData = await connection.text();
-  console.log(sData);
-  // populateReservationInfo(sData);
+  var sData = await connection.json();
+  var element = document.getElementById("reservationInfo");
+  element.classList.remove("hidden");
+  populateReservationInfo(sData);
 }
 
-// function populateReservationInfo(booking) {
-//   document.getElementById("name").innerHTML = booking.passengerEmail;
-
-//   console.log(booking);
-// }
+function populateReservationInfo(booking) {
+  document.getElementById("name").innerHTML = booking.passengerName;
+  document.getElementById("lastName").innerHTML = booking.passengerSurname;
+  document.getElementById("code").innerHTML = booking.bookingCode;
+  document.getElementById("from").innerHTML = booking.bookedFlightInfo[0].from;
+  document.getElementById("to").innerHTML = booking.bookedFlightInfo[0].to;
+  console.log(booking);
+}

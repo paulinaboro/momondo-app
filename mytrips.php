@@ -24,28 +24,27 @@
     <img src="img/temporal.png">
   </section>
 
-
 <div id="searchForBooking">
 <h1>Enter your booking code and last name to find your reservation</h1>
-<label for="reservation">Booking Code</label>
+<!-- <label for="reservation">Booking Code</label> -->
 <input type="text" id="bookingCode" name="reservation" placeholder="Booking code">
-<label for="bookingLastName">Last Name</label>
+<!-- <label for="bookingLastName">Last Name</label> -->
 <input type="text" id="bookingLastName" name="bookingLastName" placeholder="Last name">
 <button id="searchByBookingCode" onclick="findBooking()">Search</button>
-<div id="reservationInfo">
-  <h1>Reservation Details</h1>
-
-    <p id="name">lalal</p>
-    <p id="surname">lala</p>
-<!-- <template id="reservationTemplate" >
+<div id="reservationInfo" class="hidden">
+  <h2>Reservation Details</h2>
+<p class="bold">Passenger name:</p>
 <p id="name"></p>
-<p id="surname"></p>
-</template>     -->
-
+<p class="bold">Passenger Last Name:</p>
+<p id="lastName"></p>
+<p class="bold">Booking Code</p>
+<p id="code"></p>
+<p class="bold">Flight from:</p>
+<p id="from"></p>
+<p class="bold">Flight to:</p>
+<p id="to"></p>
 </div>
 </div>
-
-
 
 <script src="app.js"></script>
   </body>

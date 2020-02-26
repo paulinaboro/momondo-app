@@ -199,14 +199,27 @@ main {
 h1,
 h2,
 h3 {
-  color: white;
+  color: black;
 }
 
 #reservationInfo {
   margin-top: 10%;
+  margin-bottom: 20%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.hidden {
+  display: none;
 }
 #searchByBookingCode {
   width: 160px;
   margin-top: 20px;
   text-align: center;
+}
+
+.bold {
+  font-weight: 400;
+  font-size: 22px;
 }
