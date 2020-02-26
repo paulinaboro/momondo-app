@@ -23,6 +23,14 @@
             "passengerSurname": "Moss",
             "passengerEmail": "forTestingpaulina554@gmail.com",
             "passengerPhoneNumber": "50149540"
+        },
+        {
+            "id": "b98227bdcd0d968dac7a1f2d38865b05",
+            "bookingCode": "bfee6f31",
+            "passengerName": "Johny",
+            "passengerSurname": "Depp",
+            "passengerEmail": "forTestingpaulina554@gmail.com",
+            "passengerPhoneNumber": "50149540"
         }
     ]
 }

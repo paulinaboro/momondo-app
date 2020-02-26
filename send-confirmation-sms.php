@@ -22,6 +22,6 @@ $sEmail = $_GET['email'];
 </head>
 <body>
     
-    <p><?= $sEmail ?></p>
+    
 </body>
 </html>

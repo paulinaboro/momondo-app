@@ -2,6 +2,20 @@
 <?php
 $flightId = $_GET['id'];
 
+$sData = file_get_contents('founded-matching-flights.json');
+$jData = json_decode($sData);
+
+$jTicketInfoDiv = '';
+foreach($jData->flights as $jFlight){
+    if($jFlight->id = $flightId){
+        $jTicketInfoDiv= "
+        <div>
+        <p>You are buying the ticket from $jFlight->from to $jFlight->to</p>
+        <p>Ticket prize is $jFlight->price</p>
+        <p>Airline Company name is $jFlight->companyName</p>
+        </div> ";
+    }
+}
 ?>
 
 <!DOCTYPE html>
@@ -12,8 +26,12 @@ $flightId = $_GET['id'];
     <title>Flight Purchase</title>
 </head>
 <body>
+
+<div>
+<h1>Flight details</h1>
+<p><?php echo $jTicketInfoDiv; ?></p>
+</div>
     <h3>Enter passenger details in order to buy a ticket</h3>
-    <?php echo $flightId; ?>
 
     <form action="save-new-ticket-purchase.php" method="POST">
     <input name="ticket-bookingCode" type="hidden" type="text">
@@ -30,3 +48,4 @@ $flightId = $_GET['id'];
     </form>
 </body>
 </html>
+
