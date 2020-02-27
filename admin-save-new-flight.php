@@ -1,6 +1,22 @@
 <?php
+if( 
+  $_POST['flight-flightId'] &&
+  $_POST['flight-from'] && 
+  $_POST['flight-fromCityCode'] &&
+  $_POST['flight-to'] &&
+  $_POST['flight-toCityCode'] &&
+  $_POST['flight-departureTime'] &&
+  $_POST['flight-arrivalTime'] &&
+  $_POST['flight-companyShortcut'] &&
+  $_POST['flight-companyName'] &&
+  $_POST['flight-flightDuration'] &&
+  $_POST['flight-price'] &&
+  $_POST['flight-totalPrice']
+){
+
+require_once('admin-access.php');
 // Read/Open file 
-$sData = file_get_contents('demo-data.json');
+$sData = file_get_contents('all-available-flights-list.json');
 // echo $sData;
 $jData = json_decode($sData);
 // CREATE A NEW FLIGHT JSON OBJECT
@@ -53,12 +69,12 @@ array_push($jData->flights, $jFlight);
 $sData = json_encode($jData, JSON_PRETTY_PRINT);
 // echo $sData;
 // Save city to file
-file_put_contents('demo-data.json', $sData);
+file_put_contents('all-available-flights-list.json', $sData);
 // Redirect
 header('Location: admin-add-new-flight.php');
 // header('Location: admin-page.php');
 
-
+}
 
 
 

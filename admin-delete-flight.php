@@ -2,7 +2,8 @@
 // get the id from the url
 $flightId = $_GET['id'];
 // open file
-$sData = file_get_contents('demo-data.json');
+$sData = file_get_contents('all-available-flights-list.json
+');
 // convert it to an object
 $jData = json_decode($sData);
 // echo $sData;

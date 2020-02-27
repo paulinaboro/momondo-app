@@ -1,0 +1,236 @@
+{
+    "flights": [
+        {
+            "id": "b01d5c83ca887c4bcb82fed205c4df67",
+            "flightId": "NOR123",
+            "from": "Warsaw",
+            "fromCityCode": "WAW",
+            "to": "Copenhagen",
+            "toCityCode": "CPH",
+            "departureTime": "1582623821",
+            "arrivalTime": "1582674985",
+            "companyShortcut": "SAS",
+            "companyName": "",
+            "flightDuration": "",
+            "price": "600",
+            "totalPrice": "",
+            "stops": [
+                {
+                    "name": "",
+                    "airportName": "",
+                    "airportCode": "",
+                    "stopDuration": ""
+                },
+                {
+                    "name": "",
+                    "airportName": "",
+                    "airportCode": "",
+                    "stopDuration": ""
+                }
+            ]
+        },
+        {
+            "id": "93796536048980a92c021cf8dc3c0cb7",
+            "flightId": "KLM201",
+            "from": "Warsaw",
+            "fromCityCode": "WAW",
+            "to": "Copenhagen",
+            "toCityCode": "CPH",
+            "departureTime": "1582623821",
+            "arrivalTime": "1582710221",
+            "companyShortcut": "LH",
+            "companyName": "KLM Royal Dutch Airlines",
+            "flightDuration": "120",
+            "price": "600",
+            "totalPrice": "600",
+            "stops": [
+                {
+                    "name": "",
+                    "airportName": "",
+                    "airportCode": "",
+                    "stopDuration": ""
+                },
+                {
+                    "name": "",
+                    "airportName": "",
+                    "airportCode": "",
+                    "stopDuration": ""
+                }
+            ]
+        },
+        {
+            "id": "fd28cd37b01272da81a87a7e17045584",
+            "flightId": "AIR401",
+            "from": "London",
+            "fromCityCode": "LHR",
+            "to": "Berlin",
+            "toCityCode": "BRL",
+            "departureTime": "1582623821",
+            "arrivalTime": "1582674985",
+            "companyShortcut": "ib",
+            "companyName": "Air Portugal",
+            "flightDuration": "180",
+            "price": "250",
+            "totalPrice": "250",
+            "stops": [
+                {
+                    "name": "Stop 1",
+                    "airportName": "Brussels",
+                    "airportCode": "BRU",
+                    "stopDuration": "45"
+                },
+                {
+                    "name": "",
+                    "airportName": "",
+                    "airportCode": "",
+                    "stopDuration": ""
+                }
+            ]
+        },
+        {
+            "id": "a8ec1e32648a2d8fba53914e61c654c4",
+            "flightId": "BRI789",
+            "from": "London",
+            "fromCityCode": "LHR",
+            "to": "Berlin",
+            "toCityCode": "BRL",
+            "departureTime": "1582623821",
+            "arrivalTime": "1582710221",
+            "companyShortcut": "AF",
+            "companyName": "British Airways",
+            "flightDuration": "160",
+            "price": "800",
+            "totalPrice": "900",
+            "stops": [
+                {
+                    "name": "Stop 1",
+                    "airportName": "Amsterdam Airport",
+                    "airportCode": "AMS",
+                    "stopDuration": "80"
+                },
+                {
+                    "name": "",
+                    "airportName": "",
+                    "airportCode": "",
+                    "stopDuration": ""
+                }
+            ]
+        },
+        {
+            "id": "c30a1c3b76ff565d46141361c8226c62",
+            "flightId": "TUI001",
+            "from": "Warsaw",
+            "fromCityCode": "WAW",
+            "to": "Copenhagen",
+            "toCityCode": "CPH",
+            "departureTime": "1582623821",
+            "arrivalTime": "1582665745",
+            "companyShortcut": "KL",
+            "companyName": "Norwegian",
+            "flightDuration": "60",
+            "price": "450",
+            "totalPrice": "450",
+            "stops": [
+                {
+                    "name": "",
+                    "airportName": "",
+                    "airportCode": "",
+                    "stopDuration": ""
+                },
+                {
+                    "name": "",
+                    "airportName": "",
+                    "airportCode": "",
+                    "stopDuration": ""
+                }
+            ]
+        },
+        {
+            "id": "35e8ce4f882f09288861bb999fb1ecb7",
+            "flightId": "AIR354",
+            "from": "London",
+            "fromCityCode": "LHR",
+            "to": "Berlin",
+            "toCityCode": "BER",
+            "departureTime": "1582623821",
+            "arrivalTime": "1582669345",
+            "companyShortcut": "AIR",
+            "companyName": "Air Portugal",
+            "flightDuration": "120",
+            "price": "340",
+            "totalPrice": "600",
+            "stops": [
+                {
+                    "name": "Stop 1",
+                    "airportName": "Brussels Airport",
+                    "airportCode": "BRU",
+                    "stopDuration": "45"
+                },
+                {
+                    "name": "",
+                    "airportName": "",
+                    "airportCode": "",
+                    "stopDuration": ""
+                }
+            ]
+        },
+        {
+            "id": "256f53a264c774062634599d6688e355",
+            "flightId": "SAS345",
+            "from": "Warsaw",
+            "fromCityCode": "WAW",
+            "to": "Berlin",
+            "toCityCode": "BRL",
+            "departureTime": "1582623821",
+            "arrivalTime": "1582710221",
+            "companyShortcut": "SAS",
+            "companyName": "SAS",
+            "flightDuration": "60",
+            "price": "700",
+            "totalPrice": "700",
+            "stops": [
+                {
+                    "name": "",
+                    "airportName": "",
+                    "airportCode": "",
+                    "stopDuration": ""
+                },
+                {
+                    "name": "",
+                    "airportName": "",
+                    "airportCode": "",
+                    "stopDuration": ""
+                }
+            ]
+        },
+        {
+            "id": "d852c83c11529a1e3544624649af96e9",
+            "flightId": "SAS301",
+            "from": "Copenhagen",
+            "fromCityCode": "CPH",
+            "to": "Berlin",
+            "toCityCode": "BRL",
+            "departureTime": "1582623821",
+            "arrivalTime": "1582710221",
+            "companyShortcut": "SAS",
+            "companyName": "SAS",
+            "flightDuration": "60",
+            "price": "600",
+            "totalPrice": "600",
+            "stops": [
+                {
+                    "name": "",
+                    "airportName": "",
+                    "airportCode": "",
+                    "stopDuration": ""
+                },
+                {
+                    "name": "",
+                    "airportName": "",
+                    "airportCode": "",
+                    "stopDuration": ""
+                }
+            ]
+        }
+    ]
+}

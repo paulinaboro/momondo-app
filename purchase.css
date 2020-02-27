@@ -1,0 +1,73 @@
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 26px;
+}
+
+#purchaseForm {
+  margin-left: 35vw;
+  width: 550px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  box-shadow: 7px 9px 8px -3px rgba(171, 171, 171, 1);
+  border-radius: 5px;
+  margin-top: 5vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 3em;
+}
+#purchaseForm input {
+  width: 350px;
+}
+
+#buy_btn {
+  height: 5vh;
+  width: 13vw;
+  border-radius: 1em;
+  background-color: #26a59a;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4%;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+#info2 {
+  margin-top: 30vh;
+}
+#info2 > p,
+a {
+  font-size: 24px;
+}
+
+#green-tick {
+  width: 70px;
+}
+
+#returnBtn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+}

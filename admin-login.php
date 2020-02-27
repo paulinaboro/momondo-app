@@ -4,10 +4,18 @@
       isset($_POST['txtPassword'])
   ){
     // Connect to the database
-    $sCorrectEmail      = 'a@a.com';
-    $sCorrectPassword   = '1';
+    // $sCorrectEmail      = 'a@a.com';
+    // $sCorrectPassword   = '1';
+
+    $sData = file_get_contents('administrators-data.json');
+    $jData = json_decode($sData);
+    // Connect to the database
+    $sCorrectEmail      = $jData->email;
+    $sCorrectPassword   = $jData->password;
+
     $sUserEmail         = $_POST['txtEmail'];
     $sUserPassword      = $_POST['txtPassword'];
+
     if( $sCorrectEmail ==  $sUserEmail &&
         $sCorrectPassword == $sUserPassword
     ){
@@ -31,13 +39,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>login</title>
+  <link rel="stylesheet" href="admin.css">
 </head>
 <body>
-  
-  <form action="admin-login.php" method="POST">
+
+<style>
+
+
+
+</style>
+  <form id="loginAdminForm" action="admin-login.php" method="POST">
     <input name="txtEmail" type="text" placeholder="email">
     <input name="txtPassword" type="text" placeholder="password">
-    <button>LOGIN</button>
+    <button id="login-btn">Login</button>
   </form>
 
 </body>

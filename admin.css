@@ -85,3 +85,25 @@ li a:hover {
 .delete {
   color: red;
 }
+
+#loginAdminForm {
+  margin-top: 35vh;
+  text-align: center;
+}
+#loginAdminForm > input {
+  height: 30px;
+  border: 3px solid #3492eb;
+}
+
+#login-btn {
+  background-color: #3492eb;
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

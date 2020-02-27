@@ -22,7 +22,7 @@ $jBookingCodeForUser = $jBooking->bookingCode;
 $flightId = $_GET['newId'];
 
 $jBooking->bookedFlightInfo = [];
-$sNewData = file_get_contents('demo-data.json');
+$sNewData = file_get_contents('all-available-flights-list.json');
 $jNewData = json_decode($sNewData);
 
 

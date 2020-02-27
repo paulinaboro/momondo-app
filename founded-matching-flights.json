@@ -2,7 +2,7 @@
     "flights": [
         {
             "id": "c30a1c3b76ff565d46141361c8226c62",
-            "flightId": "SAS301",
+            "flightId": "TUI001",
             "from": "Warsaw",
             "fromCityCode": "WAW",
             "to": "Copenhagen",

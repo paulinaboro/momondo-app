@@ -1,15 +1,10 @@
 <?php
 http_response_code(200);
 header('Content-Type: application/json');
-
-
-
 $sSearchFor = $_GET['code'];
 $sSearchFor2 = $_GET['lastName'];
-
 $sData = file_get_contents('booked-flights.json');
 $jData = json_decode($sData);
-
 foreach($jData->bookings as $jBooking){
 if(stripos($jBooking->bookingCode, $sSearchFor) !== false){ //check for the first element 
   if(stripos($jBooking->passengerSurname, $sSearchFor2) !== false){ //check for the second element
@@ -19,6 +14,5 @@ if(stripos($jBooking->bookingCode, $sSearchFor) !== false){ //check for the firs
 }
 $sData = json_encode($jResponse, JSON_PRETTY_PRINT);
 echo json_encode($jResponse);
-
 
 

@@ -1,8 +1,10 @@
 
 <?php 
+  require_once('admin-access.php');
+  $sUserEmail = $_SESSION['sEmail'];
 require_once('admin-topNavbar.php');
 
-  $sData = file_get_contents('demo-data.json');
+  $sData = file_get_contents('all-available-flights-list.json');
   $jData = json_decode($sData);
   $sFlightsTable = '';
   foreach($jData->flights as $flight){

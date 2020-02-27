@@ -1,5 +1,7 @@
 
 <?php 
+  require_once('admin-access.php');
+  $sUserEmail = $_SESSION['sEmail'];
 require_once('admin-topNavbar.php');
 ?>
 

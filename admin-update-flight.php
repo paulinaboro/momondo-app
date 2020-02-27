@@ -6,7 +6,7 @@ isset($_POST['flight-to'])
 ){
 echo 'User trying to update data';
 //Open file
-$sData = file_get_contents('demo-data.json');
+$sData = file_get_contents('all-available-flights-list.json');
 //Convert text file to JSON
 $jData = json_decode($sData);
 //Loop and find a match
@@ -41,7 +41,7 @@ break;
 }
 //Convert JSON to text and save it
 $sData = json_encode($jData, JSON_PRETTY_PRINT);
-file_put_contents('demo-data.json', $sData);
+file_put_contents('all-available-flights-list.json', $sData);
 //Redirect user to cities.php
 header('Location: admin-all-flights.php');
 exit();
@@ -50,7 +50,7 @@ exit();
   if(  isset($_GET['id'])   ){
     $sFlightId = $_GET['id'];
     // Open file
-    $sData = file_get_contents('demo-data.json');
+    $sData = file_get_contents('all-available-flights-list.json');
     // Convert text to JSON
     $jData = json_decode($sData);
     $aFlights = $jData->flights;

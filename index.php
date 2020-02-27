@@ -1,5 +1,4 @@
 <?php
-
 // fetching and displaying all flights from the json file 
 $sData = file_get_contents('founded-matching-flights.json');
 $jData = json_decode($sData);
@@ -10,10 +9,8 @@ foreach($jData->flights as $jFlight){
   // if($jFlight->price < $iCheapestPrice){
   //   $iCheapestPrice = $jFlight->price;
   // }
-
   $sDepartureDate = date("Y-M-d H:i", substr($jFlight->departureTime, 0, 10)); 
   $sArrivalTime = date("H:i", substr($jFlight->arrivalTime, 0, 10));
-
   //2nd loop for array of stops
   $jStopsDivs = '';
   foreach($jFlight->stops as $jStop){
@@ -27,9 +24,6 @@ foreach($jData->flights as $jFlight){
     }else{
       $jStopsDivs .= "<div><p>direct flight</p></div>";
     }
-   
-    
-    
     $jStop->name = "";
   $sFlightsDivs .= "
     <div id='flight'>
@@ -81,19 +75,7 @@ foreach($jData->flights as $jFlight){
   ";
 }
 }
-  ///////////////////////// convert total minutes of the stop to hours
-  // $totalMinutes = $jFlight->flightDuration;
-  // $hours = intval($totalMinutes/60);
-  // $minutes = $totalMinutes - ($hours * 60);
-  // if(empty($minutes)){
-  //   echo $minutes;
-  //   unset($minutes);
-  //   $minutes = "00";
-  // }
-  ////////////////////////
-
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -122,13 +104,7 @@ foreach($jData->flights as $jFlight){
       <input oninput="getFromCities()" id="txtSearchFrom" value="" type="text" placeholder="from city">
       <div id="fromCityResults"></div>
     </div>
- 
-    
 </div>
-
-     
-
-
     <button>&lt;- -&gt;</button>
     <div id="boxToCity">
       <input oninput="getToCities()" id="txtSearchTo" value="" type="text" placeholder="to city">
@@ -187,9 +163,6 @@ foreach($jData->flights as $jFlight){
       <div id="flights">  
         <?= $sFlightsDivs ?>
       </div>
-
-
-
     </div>
   </main>
   <script src="app.js"></script>
