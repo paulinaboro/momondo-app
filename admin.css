@@ -95,7 +95,8 @@ li a:hover {
   border: 3px solid #3492eb;
 }
 
-#login-btn {
+#login-btn,
+#submit_btn {
   background-color: #3492eb;
   border: none;
   color: white;

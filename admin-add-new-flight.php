@@ -35,7 +35,7 @@ require_once('admin-topNavbar.php');
     <input name="stop2-stopDuration" type="text" placeholder="stop2-stopDuration">
 
 
-    <button type="submit">SAVE</button> 
+    <button id="submit_btn" type="submit">SAVE</button> 
   </form>
 
 
